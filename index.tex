@@ -1,0 +1,1668 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+\ifLuaTeX
+  \usepackage{luacolor}
+  \usepackage[soul]{lua-ul}
+\else
+  \usepackage{soul}
+\fi
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Rapid Evidence Synthesis for Knowledge Mobilisation: A Practical User Guide},
+  pdfauthor={NIHR Applied Research Collaboration Greater Manchester (ARC-GM)},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Rapid Evidence Synthesis for Knowledge Mobilisation: A Practical
+User Guide}
+\author{NIHR Applied Research Collaboration Greater Manchester (ARC-GM)}
+\date{2027-07-03}
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+
+\bookmarksetup{startatroot}
+
+\chapter*{Preface}\label{preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+\markboth{Preface}{Preface}
+
+The demand for timely, reliable, and actionable evidence to inform
+decision‑making in health and social care has never been greater. Across
+the NHS and wider care systems, organisations face growing pressures to
+adopt effective innovations, improve service delivery, and respond
+rapidly to population needs. Yet the traditional processes for
+identifying, appraising, and synthesising research evidence can be
+time‑consuming and resource‑intensive, creating a gap between the
+generation of research and its practical use.
+
+Rapid Evidence Synthesis (RES) offers a pragmatic and responsive
+approach to closing this gap for facilitating rapid knowledge
+mobilisation. Developed by the NIHR Applied Research Collaboration
+Greater Manchester (ARC‑GM), the RES methodology is designed to mobilise
+existing evidence quickly, transparently, and in a way that remains
+robust enough to support real‑world decisions. RES prioritises
+relevance, clarity, and usability---focusing on what decision‑makers
+want to know.
+
+This user guide has been created to support individuals and teams who
+wish to apply the ARC‑GM RES approach in their own settings. It provides
+a step‑by‑step guide to planning, conducting, and communicating a Rapid
+Evidence Synthesis, from the initial formulation of questions through to
+interpretation and reporting. Each section includes practical tips,
+examples, and tools drawn from real‑world RES projects commissioned
+across the health and care system.
+
+The user guide is intended for a wide range of users, including
+researchers, knowledge mobilisation specialists, analysts, clinicians,
+commissioners, and policy teams. Whether you are producing a RES
+independently or working in partnership with decision‑makers, or setting
+up your own RES team for producing commissioned RES, this guide aims to
+enhance your confidence and capability in generating timely, meaningful,
+and context‑sensitive summaries of research evidence.
+
+Ultimately, the purpose of RES is not simply to synthesise and mobilise
+knowledge, but to support informed, transparent, and evidence‑driven
+decisions that can improve outcomes for patients, communities, and
+health and care services. We hope that this manual equips you with the
+skills and understanding needed to contribute to that goal.
+
+To learn more about the Rapid Evidence Synthsis project of the NIHR
+Applied Research Collaboration Greater Manchester (ARC‑GM), visit
+\href{https://arc-gm.nihr.ac.uk/rapid-evidence-synthesis}{ARC GM
+\textbar{} Rapid Evidence Synthesis}.
+
+\bookmarksetup{startatroot}
+
+\chapter{Overview of the Guide}\label{overview-of-the-guide}
+
+Lord Darzi's 2024 review of the NHS in England outlines progressive
+decline in NHS services {[}1{]}. In line with the review, the Government
+has set out a 10 Year Health Plan for England {[}2{]}. The Plan
+emphasises the urgent need for reform in response to the rising demand
+for care, noting opportunities to drive improvements through the timely
+adoption and spread of changes in health and social care including
+innovations in digital technology {[}2{]}. It stresses that embracing
+innovation is key to transforming services and delivering better
+outcomes for the public. The impact of innovation relies, however, on
+the use of effective approaches that offer value for money. As
+recommended in the Innovation Ecosystem Programme report {[}3{]}, robust
+evaluation is needed before innovations are implemented (or
+de-implemented). English health and care commissioning groups such as
+NHS Integrated Care Boards require timely and rapid evidence to support
+change, including innovation adoption decisions, specifically:
+
+·~~~~~~ \emph{Has this innovation, or planned change, been shown to make
+a positive difference to care and/or outcomes?}
+
+·~~~~~~ \emph{How certain is the research evidence?}
+
+These decisions usually have cost implications, and it is essential that
+NHS resources are used carefully to ensure we are selecting the right
+innovations for adoption and spread.
+
+\emph{``The capacity to generate scientific evidence {[}\ldots{}
+\ldots{]} has greatly exceeded the ability to apply it to public policy
+in anything but the most general way.``}
+
+Unless actionable evidence from research is adequately mobilised, the
+time and resources invested in its production are wasted and the
+learning is lost to the wider health and care system. Maximising the
+impact of research should be a fundamental goal.
+
+Knowledge mobilisation (KM) enables the use of research evidence in
+clinical practice and policymaking. Knowledge mobilisation brings
+``\textbf{diverse communities} together to \textbf{share and create new
+knowledge} in the \textbf{context of its use} to actively
+\textbf{change} something'' (Knowledge Mobilisation Alliance).
+Maximising research impact requires ensuring that evidence is timely,
+relevant, accessible, and translated into actionable insights.
+
+The NIHR-funded Applied Research Collaboration Greater Manchester
+(ARC-GM) has developed a framework for rapid evidence synthesis (RES)
+that delivers timely evidence summaries driven by the need for evidence
+to support decision-making {[}4{]}. In the context of knowledge
+mobilisation, the purpose of this RES approach is to summarise and
+mobilise accessible research evidence for decision-makers who might
+otherwise have limited capacity to access, appraise and summarise
+evidence to support decision-making.
+
+\textbf{About this RES manual and potential users}
+
+This manual aims to guide people through the different steps involved in
+producing a RES to enable them to produce own RES
+\textbf{independently}, from an initial idea to the final product for
+facilitating knowledge mobilisation.
+
+The ARC-GM RES team has developed the practical manual for the following
+potential users:
+
+·~~~~~~ individuals working within health and care systems who are
+interested in using RES as a knowledge mobilisation product to inform
+decision-making; and/or
+
+·~~~~~~ research or knowledge mobilisation teams within academic, NHS,
+charity or other institutions who have research and/or knowledge
+mobilisation capacities and are committed to producing RES to support
+those delivering health and social care.
+
+This material assumes that those considering a RES will have some prior
+knowledge of how to systematically review research evidence and
+knowledge of how the findings of primary research of various types can
+be synthesised. Prior experience in conducting systematic reviews and
+meta-analysis, however, is not required.
+
+Those who want to explore the essentials of evidence synthesis can look
+at the freely available, online resources produced by the Cochrane
+Collaboration.
+
+·~~~~~~ \href{https://www.youtube.com/watch?v=egJlW4vkb1Y}{What are
+systematic reviews?}
+
+·~~~~~~
+\href{https://www.youtube.com/watch?v=WB9pbHqUs5c&list=PLgp17bk2nACMassfBMJRbfSSvpTfMgLxu&index=5}{Intro
+to Systematic Reviews \& Meta-Analyses}
+
+·~~~~~~
+\href{https://www.cochrane.org/learn/courses-and-resources/evidence-essentials}{Evidence
+Essentials \textbar{} Cochrane}
+
+The manual is split into the following sections:
+
+·~~~~~~ Section 1. Rapid Evidence Synthesis: an introduction
+
+·~~~~~~ Section 2. Developing the RES protocol in collaboration with
+decision-makers
+
+·~~~~~~ Section 3. Searching for and selecting relevant research
+evidence
+
+·~~~~~~ Section 4. Extracting data and assessing the validity and
+certainty of findings
+
+·~~~~~~ Section 5. Synthesising and summarising the evidence
+
+·~~~~~~ Section 6. Interpreting and communicating findings
+
+·~~~~~~ Glossary
+
+After reading each section you might find it helpful to complete the
+tasks listed at the end to consolidate your learning.
+
+\bookmarksetup{startatroot}
+
+\chapter{Section 1. An Introduction to Rapid Evidence
+Synthesis}\label{section-1.-an-introduction-to-rapid-evidence-synthesis}
+
+By the end of this section you should:
+
+·~~~~~~ Understand how the NIHR Applied Research Collaboration Greater
+Manchester (ARC-GM) approach to rapid evidence synthesis (RES) compares
+with other evidence synthesis approaches e.g., systematic and rapid
+reviews;
+
+·~~~~~~ Have an overview of the key steps in producing a RES;
+
+·~~~~~~ Consider situations when generating a RES is feasible and
+useful.
+
+\textbf{Overview of evidence synthesis approaches}
+
+In health and care systems, an \textbf{innovation} is any intentional
+change in the provision of health or social care e.g.~a new treatment,
+new health technology system, new test, new public health policy or
+programme, or a change in working method. Health and social care
+organisations make decisions to adopt and implement new innovations all
+the time. Inherent in an adoption decision are considerations of
+effectiveness (this change is going to make a positive difference), cost
+(the cost of this change will be worthwhile) and safety (this change is
+unlikely to harm service users, patients, staff or the wider system).
+The kind of evidence that assists this kind of adoption decision
+includes existing, relevant research evidence and it needs to be
+synthesised to be given due consideration.
+
+\emph{`Evidence synthesis refers to the process of bringing together
+information from a range of sources and disciplines to inform debates
+and decisions on specific issues. Decision-making and public debate are
+best served if policymakers have access to the best current evidence on
+an issue. An accurate, concise and unbiased synthesis of the evidence is
+therefore one of the most valuable contributions the research community
+can offer policymakers.'}
+
+From `\emph{\textbf{Evidence synthesis for policy: a statement of
+principles}'by the Royal Society and the Academy of Medical Sciences}
+{[}5{]}.
+
+Of the available evidence synthesis approaches, systematic review and
+rapid reviews are commonly used.
+
+`\emph{Systematic reviews seek to collate evidence that fits
+pre-specified eligibility criteria in order to answer a specific
+research question. They aim to minimize bias by using explicit,
+systematic methods documented in advance with a protocol.}'
+
+From \textbf{\emph{Cochrane Handbook for Systematic Reviews of
+Interventions {[}6{]}.}}
+
+See the introductory video produced by the Cochrane Collaboration
+\href{https://www.youtube.com/watch?v=egJlW4vkb1Y&t=29s}{What are
+systematic reviews?}
+
+Systematic reviews are widely acknowledged to be the gold standard
+approach to summarising and synthesising research findings. Reviewers
+follow a pre-specified protocol (or plan), conduct an exhaustive and
+comprehensive search to find research relevant to a well-defined
+question, and then appraise the risk of bias in eligible studies before
+synthesis (Box 1). The risk of bias assessment ensures that the results
+of the research are interpreted in the light of how well the research
+was done and how likely the apparent results are to be `true.'
+
+Conducting systematic reviews is, however, often a lengthy process. A
+Cochrane review takes, on average, approximately 23 months to produce
+{[}7{]}. Rapid reviews emerged to address this issue, adapting
+systematic review methodology `\emph{that accelerates the process of
+conducting a traditional systematic review through streamlining or
+omitting specific methods to produce evidence for stakeholders in a
+resource-efficient manner}'{[}8{]}. So, whilst the key steps in a
+systematic review are common to rapid approaches to systematic reviews
+(Box 1), certain elements are curtailed. Changes include searches being
+limited to a specific time period and reviewers conducting informal
+critical appraisal and quality assessment. Even with these
+modifications, rapid reviews can still take months to deliver.
+
+{[}To include Box 1 here.{]}
+
+The time it takes for systematic reviews (and rapid versions of these)
+to come to fruition can prevent important research findings from
+reaching decision-makers when they need them.~ Decision-makers in health
+and care services often need insights from evidence in weeks rather than
+months or years to inform decisions on scaling up (or scaling down)
+innovations. The lack of suitable rapid evidence synthesis methods often
+leads to research evidence being disregarded during decision and policy
+making. This situation led us to develop our rapid approach which,
+whilst imperfect, ensures that existing research evidence is part of the
+process.
+
+\textbf{The ARC-GM Rapid Evidence Synthesis (RES) process}
+
+Our RES process generates evidence-informed insights for
+decision-makers, aiming to accelerate patient and public access to
+beneficial innovations. A RES can be used to help decision-making on the
+adoption of all types of innovations used in the context of the health
+and care system; whether this is to improve treatment, diagnosis,
+education, outreach, prevention or research purposes, with the long-term
+goals of improving quality, safety, outcomes, efficiency and costs.
+
+The RES process follows the steps outlined in Box 1 but uses an approach
+that can be completed in weeks rather than months or years.
+
+RES are designed to produce a `good-enough' (rather than perfect)
+summary of the evidence to support decision-making in a short timeframe,
+where the alternative might be not using research at all. This approach
+focuses on delivering a concise and up-to-date synthesis of the most
+relevant and methodologically robust evidence available. We often
+prioritise summarising pre-appraised evidence for a RES. While not
+exhaustive, the RES ensures that uncertainties are clearly identified
+and acknowledged.
+
+Key considerations when developing our RES approach were speed,
+transparency, an emphasis on the relevance of the evidence and analysis
+of its robustness and usability.
+
+·~~~~~~ \textbf{\emph{Speed}}. By often prioritising and summarising
+existing, pre-appraised evidence synthesis in a brief report for
+decision-makers, our approach can deliver a RES in 2--8 weeks, depending
+on the size and scope of the motivating questions. The approach can be
+applied to complex innovations and considers where evidence for
+innovations may be sparse or of limited relevance.
+
+·~~~~~~ \textbf{\emph{Transparency and robustness}}. The principles of
+the \href{https://www.bmj.com/content/353/bmj.i2016}{GRADE Evidence to
+Decision framework} are central to the RES approach, which makes the
+RES, and the decision process to which it contributes, transparent,
+consistent and reproducible.
+
+·~~~~~~ \textbf{\emph{Relevance and usability}}. The RES approach
+considers the relevance of the evidence to the local health and care
+system and context as well as its reliability.
+
+\textbf{Deciding when to conduct a RES instead of other types of
+evidence synthesis}
+
+Whilst more rapid than most other evidence synthesis options,
+undertaking a RES is still resource intensive. The manual users can use
+the following questions to help decide which RES requests are high
+priority and feasible:
+
+·~~~~~~ How answerable is the question for a RES? ~
+
+·~~~~~~ How suitable is a RES and is there a better (evidence synthesis)
+approach to take? When considering the review approach the risk of
+getting the `wrong answer' needs to be considered. What is the tolerance
+for decision-makers of drawing the wrong conclusion because the review
+approach increases the risk of missing key research?
+
+·~~~~~~ How practical and feasible is it to complete a RES? Is there an
+existing evidence base for this area of inquiry?
+
+·~~~~~~ How useful and impactful are the potential findings of a RES
+likely to be in relation to decisions to adopt innovations in local
+health and care systems?
+
+Whilst a RES is often the appropriate option in the context of knowledge
+mobilisation, in some cases it is not, and teams need to carefully
+assess whether other evidence synthesis products like systematic reviews
+are more appropriate. The decision pathway may help you determine which
+type of evidence synthesis is most appropriate to undertake.
+
+RES focuses on \textbf{\emph{knowledge mobilisation}}---that is,
+summarising existing knowledge or evidence to share with specific
+audiences who need it for decision-making. When the goal of an evidence
+inquiry is to generate new knowledge, other types of evidence synthesis
+may be more appropriate.
+
+Here is an example of a scenario where a RES is needed as a
+\emph{knowledge mobilisation} product, rather than other types of
+reviews.
+
+The Greater Manchester Integrated Care Partnership (GM ICP) Population
+Health team aimed to develop regional policies to restrict the
+advertising of harmful commodities in public sector--owned spaces and
+wanted to use research evidence to support their practice. To make
+timely and informed policy decisions, the team needed rapid access to
+existing research evidence on what similar regions had already
+implemented and the potential health and financial impacts of such
+restrictions.
+
+In this context, the objective was \textbf{not} to generate new
+knowledge through a comprehensive and exhaustive review, but rather to
+\textbf{mobilise} the most relevant, accessible, and actionable evidence
+already available. Decision‑makers required a concise synthesis that
+could be produced quickly, highlight what is known, identify
+uncertainties, and support policy development within tight timelines. A
+RES was therefore the appropriate approach, offering a pragmatic and
+timely summary of the best available evidence to inform decision‑making.
+For a RES, evidence may come from existing systematic reviews, primary
+studies that have not yet been synthesised, and other relevant sources.
+The value of producing a RES, even when systematic reviews already
+exist, is that it translates the available evidence into a more
+accessible format, includes critical appraisal, and assesses how
+relevant the evidence is to the regional context so it can be made
+actionable.
+
+\textbf{An overview of key steps when conducting a RES}
+
+Our RES process is intended to be flexible, allowing for a range of
+questions to be addressed and using various exploratory approaches. It
+takes a pragmatic approach that requires partner input for co-design and
+researcher judgement to refine the approach at each stage.
+
+The RES approach consists of several steps, which will be explained in
+more detail in later sections. These steps are not necessarily linear
+but iterative. The RES process is captured in the example protocol in
+Box 2.
+
+\textbf{Describe the innovation} and its purpose. Is it a public health
+policy, a screening tool, a diagnostic or other test, a service, an
+organisational change, or something aimed at changing individual
+behaviours? What alternatives to this innovation exist? What competing
+alternatives are available that could be used instead (this will include
+what is being used currently)? ~
+
+\textbf{Formulate RES questions} based on the key characteristics and
+aims of the innovation. Consider the PICO(S) approach, which defines the
+Population, Intervention, Comparator, Outcomes, and Settings (where
+relevant) criteria that apply. Where applicable, other frameworks can be
+followed (see Table \#). Initial questions often have a narrow focus to
+maximise the relevance of the evidence, but we may expand our scope when
+evidence is sparse (e.g., to wider innovation categories).
+
+{[}To include the new Table here.{]}
+
+\textbf{Consider the study design} that offers the most valid and
+reliable evidence for each question (see Table 1). For questions on
+innovation effectiveness, we look for systematic reviews that include
+randomised controlled trials (RCTs). In the absence of existing reviews,
+or if these reviews are limited or dated, we look for relevant
+individual studies that have been published more recently, and may
+adjust the eligibility criteria to encompass a broader range of research
+evidence if necessary. ~
+
+\textbf{Use a highly focused and tailored approach to searching} the
+literature. Our literature searches are developed and conducted with an
+expert where possible. We search key sources of evidence, such as the
+Cochrane Library and Medline databases, and may also refer to additional
+resources like the National Institute for Health and Care Excellence
+(NICE) website when relevant. We stringently screen search results based
+on pre-established eligibility criteria set out in the protocol (i.e.,
+`rules to apply' when deciding whether to include or exclude articles).
+
+\textbf{Extract the relevant information and evaluate evidence validity
+and certainty.} Relevant information needs to be taken from the selected
+material, including findings and any relevant assessment of validity and
+certainty. These assessments are often guided by tools such as the
+Cochrane tool for assessing the risk of bias in RCTs {[}9{]} and the
+ROBINS-I tool for non-RCT evidence {[}10{]}. The GRADE approach is
+widely used for assessing the certainty of a body of evidence {[}11{]}.
+These judgements provide a sense of how confident we can be in the
+research findings. Where existing evidence has not previously had its
+validity or certainty assessed, RES reviewers may perform the relevant
+assessments as needed. Additionally, at this stage we consider the
+relevance of the evidence to the local context in terms of service
+model, comparators and populations.
+
+\textbf{Synthesising and summarising the evidence} to answer the key
+questions. We present a clear summary of findings, including a judgement
+of how confident we can be in them. We aim to explain the nature of any
+uncertainty in the evidence, and how relevant it is to the key
+questions.
+
+Beyond the synthesis of evidence per se, we may also prepare the
+groundwork for further evaluation (e.g., questions that should be
+addressed in proof-of-value or deployment at scale), co-working with
+partners.
+
+Further information about our approach is detailed in our
+\href{https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-022-02106-z}{journal
+publication}.
+
+{[}To include Box 2 here{]}
+
+\textbf{Section summary}
+
+At ARC-GM we have developed a rapid evidence synthesis (RES) approach.
+The RES approach draws on evidence synthesis methods and decision
+frameworks and provides rapid assessments of existing evidence and its
+relevance to specific local decision problems.
+
+We regard RES as a suitable alternative to full evidence synthesis in
+certain situations. RES serves local decision-makers who need a summary
+of the best available evidence to support timely decision-making on
+innovation adoption (or de-implementation). It is not always
+appropriate, feasible or necessary to conduct a RES.
+
+\textbf{Tasks to complete}
+
+☐ Decide whether a RES is appropriate and feasible for the question you
+want to answer
+
+☐ Collaborate with your partners, if applicable
+
+\bookmarksetup{startatroot}
+
+\chapter{Section 2. Developing the RES protocol in collaboration with
+decision-makers}\label{section-2.-developing-the-res-protocol-in-collaboration-with-decision-makers}
+
+By the end of this section you should:
+
+·~~~~~~ Understand the key components of a RES protocol (or plan)
+
+·~~~~~~ Understand how to formulate decision-makers' uncertainties into
+structured, answerable questions
+
+·~~~~~~ Understand the flexible and iterative approach used when
+considering eligible research for a RES.
+
+\textbf{Involving decision-makers in RES planning}
+
+It may be relevant to involve decision‑makers in RES planning, depending
+on who the manual users are.
+
+\textbf{\emph{1.~~~~~ If you are producing a RES for your own team:}}
+
+As you are both the evidence user and the RES producer, you may not
+necessarily need to engage additional decision‑makers.
+
+\textbf{\emph{2.~~~~~ If you are commissioned to produce a RES by
+decision‑makers:}}
+
+In this case, decision‑makers should be actively involved in RES
+planning to ensure the RES reflects their needs, priorities, and
+context. Decision-makers, as primary users of the evidence, play a vital
+role throughout the RES process. To ensure effective engagement and
+collaboration with the partners requesting a RES, you can ask them to
+fill in a pre-defined, evidence inquiry form (see our
+\href{https://docs.google.com/forms/d/e/1FAIpQLSdYXNkcMp96FyfGnpNq2fGGdlUPSk2Cq8nX8fAZ5y0oyCfFaA/viewform}{\textbf{Request
+for Evidence to Support-Making}} form as an example), providing
+essential details about their needs and priorities. After receiving the
+completed form, you can meet with the decision-makers to review the
+information and discuss their requirements in greater depth.
+
+These initial discussions focus on gathering more information on the
+motivating decision problem and key questions that the decision-makers
+would like to answer via the RES.
+
+From these discussions, you can:
+
+·~~~~~~ Identify and define relevant innovations
+
+·~~~~~~ Propose and prioritise answerable questions. ~
+
+This partner engagement also facilitates greater understanding of the
+local and national context, ensuring the relevance of the RES to the
+broader system-level perspective by considering issues such as:
+
+·~~~~~~ where the innovations of interest are located with respect to
+the wider system;
+
+·~~~~~~ whether any system-level factors are of relevance and why.
+
+Decision-makers may also suggest and locate relevant information and
+documents that are not publicly available but which may be informative
+in RES planning.
+
+Ongoing conversations with those requesting a RES are essential to shape
+a plan that reflects decision-maker needs.
+
+We also do the following when having the initial RES planning meeting
+with decision-makers {[}13{]}:
+
+·~~~~~~ Brief the decision-makers on RES methods to help facilitate
+engagement
+
+·~~~~~~ Be honest and transparent about the desired objectives of
+engagement and what a RES can and cannot do
+
+·~~~~~~ Carefully resolve conflicts between multiple decision-makers
+and/or between decision-makers and RES reviewers
+
+·~~~~~~ Share feedback at key stages
+
+\textbf{Overview of the key components of a RES protocol}
+
+Preparing a RES plan involves many decisions and judgements. A
+pre-specified plan is important as it guides the conduct of the RES.
+This plan should describe the questions and methods relevant to each RES
+and support a shared understanding of scope, whilst recognising that the
+process is iterative and elements of the plan may be adapted based on
+the size and shape of evidence that is identified.
+
+We do not generally register RES protocols (e.g., on the PROSPERO
+register) but we do store them internally as a record for researchers
+and decision-makers to refer to as needed. ARC-GM RES protocols commonly
+include the elements as shown in the example in Figure 1.
+
+{[}\textbf{Figure 1. The ARC-GM RES plan for the topic ``policies of
+restricting the use of public advertising space for unhealthy
+foods''}{]}
+
+\textbf{Description of the innovation}: When describing the target
+innovations for the RES, we consider the following factors that
+influence the adoption and scale-up of the innovation:
+
+·~~~~~~ What are the characteristics of the innovation or proposed
+change?
+
+o~~ The situation(s) or setting(s) where the innovation will be used or
+introduced (e.g.~public spaces, primary care, hospital-based specialist
+care)
+
+o~~ The primary purpose of the innovation (for example, preventive,
+curative, rehabilitative, long-term care)
+
+o~~ The mode of provision (e.g.~inpatient, outpatient, day care, home
+care)
+
+·~~~~~~ Who will be exposed to the innovation?
+
+·~~~~~~ If relevant, what is the mechanism by which change will be
+achieved?
+
+·~~~~~~ If relevant, what is the strategic, political or environmental
+context underlying the innovation adoption?
+
+\textbf{Key questions:} ~The RES process involves formulating
+decision-makers' queries into structured, answerable questions.
+Decision-makers may have different types of questions they want to
+explore in a RES, including questions about the following:
+
+\textbf{\emph{Innovation effectiveness}}. This type of question explores
+whether an innovation `works' in \textbf{treating} and/or
+\textbf{preventing} a condition e.g., \emph{What is the evidence for
+clinically- and cost-effective service delivery interventions for
+preventing or managing multiple long-term conditions? (RES:
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Multiple\%20long-term\%20conditions/ARC\%20RES\%20Multiple\%20long\%20term\%20conditions\%20-\%20final\%20report\%20(3).pdf}{Managing
+multiple long-term conditions})}
+
+\textbf{\emph{People's experiences}}. This type of question explores the
+\textbf{experience} of service users or staff e.g., \emph{What evidence
+is available on people's experience of debt and financial hardship
+advice and support services in or via primary care settings such as
+general practice and pharmacy? (RES:
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Financial\%20Hardship\%20in\%20Primary\%20Care/RES\%20Financial\%20and\%20debt\%20advice\%20in\%20primary\%20care\%20-\%20new\%20template\%20FINAL.pdf}{Financial
+and debt advice in primary care})}
+
+\textbf{\emph{Barriers to and facilitators}} \textbf{\emph{of innovation
+use}}. This type of question explores what inhibits and promotes the
+delivery of the innovation under evaluation, e.g., \emph{What factors
+are reported as barriers and facilitators for delivery of and access to
+debt and financial hardship advice and support services in people,
+particularly those of disadvantaged groups? (RES:
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Financial\%20Hardship\%20in\%20Primary\%20Care/RES\%20Financial\%20and\%20debt\%20advice\%20in\%20primary\%20care\%20-\%20new\%20template\%20FINAL.pdf}{Financial
+and debt advice in primary care})}
+
+\textbf{\emph{Costs}}. This type of question explores whether an
+innovation provides good value for what it costs e.g., \emph{What is the
+evidence for clinically- and cost-effective service delivery
+interventions for preventing or managing multiple long-term conditions?
+(RES:
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Multiple\%20long-term\%20conditions/ARC\%20RES\%20Multiple\%20long\%20term\%20conditions\%20-\%20final\%20report\%20(3).pdf}{Managing
+multiple long-term conditions})}
+
+\textbf{\emph{Diagnosis}}. This type of question explores how well a
+test diagnoses someone with acondition e.g., \emph{What is the
+measurement performance of remote spirometry compared with spirometry
+performed in a clinical or laboratory setting? a) For patients with
+suspected or diagnosed asthma? b) For patients with suspected or
+diagnosed COPD? (RES:
+\href{https://arc-gm.nihr.ac.uk/rapid-evidence-synthesis}{Remote
+Spirometry})}
+
+The PICO framework can help in framing a RES question, especially when
+it relates to effectiveness. Other frameworks often used in framing
+questions include:~
+
+·~~~~~~ The PIT framework used for diagnostic accuracy questions (i.e.,
+Population, Index test(s), Target condition),
+
+·~~~~~~ The PICOS framework for cost-effectiveness questions (i.e.,
+Population, Intervention, Comparator, Outcomes, and Setting, country, or
+jurisdiction).
+
+\textbf{Search}. This is an outline of the evidence resources and key
+concepts we use to search.
+
+\textbf{Eligibility criteria}
+
+As with most reviews, the research question shapes the eligibility
+criteria of the RES. Our RES process (unlike a typical systematic
+review) requires an adaptive approach, meaning that the eligibility
+criteria may be modified in response to the evidence we find. This is
+informed by an adaptive process of searching and study selection, and
+means that undertaking a RES is not a linear process.
+
+Modifying the eligibility criteria might happen if, for example,
+decision-makers have questions about novel innovations. In this case
+there may be little or no existing research about them for the
+populations of interest. So whilst we often start with a focused
+approach in a RES, considering evidence that is \textbf{directly
+relevant} to a question, where we find outdated, or little or no
+relevant evidence we expand the eligibility criteria to look for
+\textbf{indirectly relevant evidence}. Direct evidence comes from
+studies that directly compare the innovations of interest among specific
+populations in the context described by the RES question. Indirect
+evidence does not perfectly match the specific population, innovation,
+context, or outcome of interest but may provide useful insights relating
+to a wider focus as described below. Decision- makers play a key role in
+clarifying the types of innovation, context, and/or outcomes that are
+considered directly and indirectly relevant.
+
+Evidence could be considered indirectly relevant under the following
+scenarios:
+
+·~~~~~~ Broader classes of innovations
+
+Whilst directly relevant evidence focuses on the same innovation the
+decision problem relates to, indirectly relevant evidence might evaluate
+innovations in the same `class' of interventions, such as different
+version of apps with shared features. For example, when defining the
+eligibility criteria for the RES of
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing\%20policies\%20that\%20restrict\%20the\%20use\%20of\%20outdoor\%20spaces\%20for\%20advertising\%20harmful\%20commodities/ARC-GM\%20RES\%20outdoor\%20advertising\%20harmful\%20commodities\%20revised.pdf}{Restricting
+advertising in public spaces}, we initially focused on innovations of
+\emph{advertising restriction policies} but, because evidence on
+policies was limited, we thenexplored wider evidence on harmful
+\emph{commodities' advertising}. In the RES we explained this as below:
+
+\emph{`We acknowledge that some studies evaluated the impacts of
+advertising restriction policies on outcomes whilst others evaluated the
+impacts of harmful commodities' advertising on outcomes. We considered
+studies that evaluated policy restrictions to be a source of direct
+evidence. Where direct evidence was unavailable, we included studies
+that evaluated advertising, but considered their evidence to be
+indirectly relevant to this RES.' (RES:
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing\%20policies\%20that\%20restrict\%20the\%20use\%20of\%20outdoor\%20spaces\%20for\%20advertising\%20harmful\%20commodities/ARC-GM\%20RES\%20outdoor\%20advertising\%20harmful\%20commodities\%20revised.pdf}{Restricting
+advertising in public spaces})}
+
+·~~~~~~ Different health and care settings
+
+A RES can be most useful when it focuses on UK-specific evidence or
+evidence from other high-income countries (we often consider both these
+sources to be directly relevant). When evidence is limited, however, the
+eligibility criteria used for a RES may be expanded to include evidence
+from low-income countries that are considered indirectly relevant. See
+the example of \emph{RES:
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Multiple\%20long-term\%20conditions/ARC\%20RES\%20Multiple\%20long\%20term\%20conditions\%20-\%20final\%20report\%20(3).pdf}{Managing
+multiple long-term conditions}.}
+
+·~~~~~~ Wider populations
+
+In the example of the RES
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Youth\%20workers\%20for\%20children\%20and\%20young\%20people/UoM\%20Healthier\%20Futures\%20Rapid\%20Evidence\%20Synthesis\%20-\%20Youth\%20workers\%20for\%20children\%20and\%20young\%20people\%20-\%20January\%202025.pdf}{Youth
+workers for children and young people}, we aimed to answer the question
+related to `\emph{children and young people who have a chronic
+(long-term) physical or mental health condition}'. However, when
+evidence was limited we `\emph{widened our scope and thus eligibility
+criteria to include any child and young person population}' and this was
+considered indirectly relevant.
+
+As well as PICO elements, the eligibility criteria define the study
+designs that will be included in the RES. As with other types of review,
+RES questions dictate the most appropriate type of study to be included
+(Table 1). To be as rapid as possible RES reviewers can normally limit
+eligible study designs to existing, relevant systematic reviews of
+appropriate primary study designs. Systematic reviews, if available,
+offer reliable summaries of the relevant research. When relevant and
+available, we also consider guidelines from organisations such as NICE
+that make recommendations informed by robust evidence syntheses.
+
+If suitable systematic review evidence is not available or is outdated,
+we then seek directly relevant evidence from the most suitably designed
+primary research studies. For clinical effectiveness questions, RES
+reviewers can consider RCTs as the most robust design. Where RCTs do not
+exist, you may consider other well-designed alternative quantitative
+studies (see Table 1). You can ask for experts for advice when you are
+unclear what study designs are the most appropriate for inclusion. In
+some cases, we may also consider the findings of rapid and scoping
+reviews. By incorporating other reviews and primary research, we ensure
+that the RES remains as thorough and relevant as possible. ~
+
+To help deliver a RES within the required timeline, we sometimes need to
+further limit the eligibility criteria, giving details in the RES plan
+based on the following:
+
+·~~~~~~ \textbf{Quality}: We may limit inclusion to high-quality
+evidence that considers factors such as study designs, methodological
+rigour, and sample size.
+
+·~~~~~~ \textbf{Comprehensiveness}: We may limit inclusion to the most
+comprehensive evidence where we identify multiple systematic reviews.
+
+·~~~~~~ \textbf{When the research was undertaken}: We may include only
+the latest evidence.
+
+As a result of applying these criteria, we prioritise the evidence that
+is likely to have the most significant impact in informing policy or
+practice.
+
+{[}\textbf{Table 1. An overview of questions that a RES could answer and
+the types of appropriate study designs for consideration, either as part
+of systematic reviews or individually when recent, pre-appraised
+evidence synthesis is not available for a RES}{]}
+
+\textbf{Section summary}
+
+The protocol or plan for a RES usually briefly summarises four elements:
+the innovation(s) being evaluated, the key questions to be addressed,
+planned approaches to searching for evidence, aand rules/criteria to
+follow when deciding what evidence is eligible for inclusion.
+
+We formulate queries from decision-makers into structured, answerable
+questions, considering the elements of Participants, Interventions,
+Comparators, and Outcomes (the PICO framework). We also define the types
+of evidence that can be used to answer the RES question, typically using
+existing systematic reviews as the primary source of evidence.
+
+We take an iterative approach, starting with a narrow focus to find the
+most directly relevant evidence, adapting eligibility criteria to widen
+the scope of what can be included in the RES where evidence is limited
+or narrowing what can be included (e.g., in terms of evidence quality
+where there is a substantial volume of relevant evidence to consider).
+
+\textbf{Tasks to complete:}
+
+☐ Formulate RES question(s), using the
+\href{https://livemanchesterac-my.sharepoint.com/personal/chunhu_shi_manchester_ac_uk/Documents/Documents/Research/Projects/RES/Admin/RES\%20question\%20formulation\%20form.docx}{RES
+question formulation form}
+
+☐ Specify eligibility criteria by referring to the
+\href{https://livemanchesterac-my.sharepoint.com/personal/chunhu_shi_manchester_ac_uk/Documents/Documents/Research/Projects/RES/Manual/Specification\%20of\%20eligibility\%20criteria\%20form.docx}{Specification
+of eligibility criteria form}
+
+☐ Develop a RES plan, using the
+\href{https://livemanchesterac-my.sharepoint.com/personal/chunhu_shi_manchester_ac_uk/Documents/Documents/Research/Projects/RES/Admin/RES\%20planning\%20tool.docx}{RES
+planning tool}\textbf{\hfill\break
+}
+
+\bookmarksetup{startatroot}
+
+\chapter{Section 3. Searching for and selecting relevant research
+evidence}\label{section-3.-searching-for-and-selecting-relevant-research-evidence}
+
+Finding research evidence that meets the eligibility criteria is a
+critical part of the RES process. This section describes a streamlined
+approach to identifying evidence for inclusion in a RES and provides
+experience-informed insights and practical tips.
+
+By the end of this section, you should:
+
+·~~~~~~ Understand how to develop a search strategy and how to search
+literature
+
+·~~~~~~ Understand the streamlined approach to study selection
+
+·~~~~~~ Understand the flexible approach to searching evidence for a RES
+
+It is important to note that this section does not cover the know-how
+and hands-on skills and steps required to perform literature searches.
+Searching the literature effectively requires a certain level of skill
+and experience. Although beginners can carry out searches themselves, it
+is recommended to seek guidance and support from experienced librarians
+where possible. Those interested in learning systematic literature
+search methods are advised to refer to other resources, for example,
+
+·~~~~~~
+\href{https://training.cochrane.org/handbook/current/chapter-04}{Chapter
+4: Searching for and selecting studies}, in the \emph{Cochrane Handbook
+for Systematic Reviews of Interventions}.
+
+·~~~~~~
+\href{https://www.wiley.com/en-us/customer-success/cochrane/cochrane-library-user-guide}{Cochrane
+Library User Guide}
+
+·~~~~~~
+\href{https://learn.nlm.nih.gov/documentation/training-packets/T0042010P/}{PubMed®
+Online Training}
+
+·~~~~~~ \href{https://hslmcmaster.libguides.com/tutorials}{Video
+Tutorials} of searching the commonly used databases
+
+\textbf{Performing and reporting a search}
+
+RES aims to quickly mobilise relevant evidence for decision-makers on
+specific health and care innovations. With this in mind, we aim to
+identify the most relevant, recent and highest quality evidence rather
+than conducting exhaustive searches for all potentially related
+evidence.
+
+\textbf{Constructing a suitable search strategy}
+
+Before performing a database search, we need to develop a suitable
+\textbf{search strategy}. A search strategy consists of multiple search
+terms (i.e., keywords, terms, or phrases) related to a review question
+that are strategically combined -- often using Boolean operators,
+truncations and wildcards. Figure 2 presents the search strategy that we
+used to find research for the RES
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing\%20policies\%20that\%20restrict\%20the\%20use\%20of\%20outdoor\%20spaces\%20for\%20advertising\%20harmful\%20commodities/ARC-GM\%20RES\%20outdoor\%20advertising\%20harmful\%20commodities\%20revised.pdf}{Restricting
+advertising in public spaces}.
+
+{[}\textbf{Figure 2. The search strategy used for Ovid MEDLINE(R){]}}
+
+To build a search strategy, we typically follow the steps outlined
+below.
+
+\textbf{Identify keywords}: The first and vital step is identifying
+keywords that can be combined in a search strategy.
+
+In identifying keywords, we often need to:
+
+·~~~~~~ Consider the topic(s) of the RES question(s);
+
+·~~~~~~ Identify the main concepts within the question(s) and list
+relevant keywords;
+
+o~~~ Check whether a concept has MeSH subject headings using databases.
+Subject headings are standardised terms used for precisely searching
+literature on a specific topic.
+
+·~~~~~~ Refer to key search terms used in the search strategies of
+published evidence syntheses, usually available within appendices,
+supplementary materials, and/or in published review protocols.
+
+·~~~~~~ Use databases, Google, or Artificial Intelligence tools (e.g.,
+\href{https://elizagrames.github.io/litsearchr/}{litsearchR}) to find
+other related keywords.
+
+For example, the terms used from line 21 to line 33 in Figure 2 are all
+keywords relating to the main concept `alcohol'. We identified these
+terms through multiple approaches as noted above, including referring to
+the search terms used in a relevant Cochrane Review {[}15{]}.
+
+\textbf{Use Boolean operators to combine search terms appropriately}:
+Boolean operators are words (i.e., OR, AND, and NOT) used in search
+engines and databases to refine and combine search terms. They help to
+improve search accuracy by controlling how search terms are `connected'
+with each other in a search.
+
+·~~~~~~ OR: This word is used to combine search terms, usually for the
+same concept, and increases the yield of the search by identifying
+papers where the terms appear separately or together.
+
+·~~~~~~ AND: This word is used to combine different concepts and reduces
+the yield of the search by only picking papers where the 'AND' terms all
+appear (ignoring papers where only one appears).
+
+Lines 21 to 33 in Figure 2 were combined using the Boolean operator `OR'
+as they are all related to the concept of alcohol.
+
+Line 42 used the Boolean operator `AND' to combine advertising-related
+terms and those related to harmful commodities such as alcohol,
+gambling, and short-term loans.
+
+\textbf{Refine a search strategy}: This often includes:
+
+·~~~~~~ Rephrasing search terms where relevant (e.g., by using
+\href{https://hslmcmaster.libguides.com/srm/truncation}{truncation and
+wildcards}.
+
+·~~~~~~ Using pre-defined search filters where available. In this
+context, a search filter is a pre-defined combination of search terms
+and is often validated by experts.
+\href{https://sites.google.com/a/york.ac.uk/issg-search-filters-resource/home}{ISSG
+Search Filters Resource} is a collection of established search filters
+on various topics.
+
+\textbf{Consideration of appropriate resources of evidence}: We
+prioritise summarising pre-appraised evidence in RES in the first
+instance, progressing to primary studies when this pre-appraised
+evidence is not available, limited or outdated. ~We primarily search the
+most commonly used databases, including Medline (or PubMed) and the
+Cochrane Library, which includes both the Cochrane Database of
+Systematic Reviews and the Cochrane Central Register of Controlled
+Trials.
+
+When database searching results in insufficient evidence for a RES, we
+might consider using the following resources for additional searches:
+
+·~~~~~~ \href{https://www.epistemonikos.org/en/}{Epistemonikos}, a
+database of systematic reviews in health and care fields.
+
+·~~~~~~ Resources other than databases, including evidence submitted by
+stakeholders, or the manufacturers of an intervention. We often consider
+\href{https://www.nice.org.uk/guidance}{NICE guidance} as a valuable
+source of information and search for relevant guidance where applicable.
+
+·~~~~~~ Reference checking or forward citation searching of relevant
+evidence syntheses and primary studies.
+
+Instead of fully presenting the detail of search methods used (e.g.,
+Boolean and proximity operators used, subject headings included, text
+words searched, and limits and filters applied), our RES reports only
+contain brief and essential details about the search methods such as
+databases and additional resources searched, the key concepts used and
+dates of the searches. However, the full details of searches are
+available on request. Figure 3 presents an example of the
+\textbf{Search} section of the RES
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing\%20policies\%20that\%20restrict\%20the\%20use\%20of\%20outdoor\%20spaces\%20for\%20advertising\%20harmful\%20commodities/ARC-GM\%20RES\%20outdoor\%20advertising\%20harmful\%20commodities\%20revised.pdf}{Restricting
+advertising in public spaces}
+
+{[}\textbf{Figure 3. Example of literature searches for the RES
+``Restricting
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing\%20policies\%20that\%20restrict\%20the\%20use\%20of\%20outdoor\%20spaces\%20for\%20advertising\%20harmful\%20commodities/ARC-GM\%20RES\%20outdoor\%20advertising\%20harmful\%20commodities\%20revised.pdf}{advertising
+in public spaces}}''{]}
+
+\textbf{Refining the search}
+
+When starting a new RES, we design our initial search to find evidence
+directly relevant to the RES questions, focusing on the specific health
+and care innovations and populations that the decision-makers are
+interested in. When the focused search returns a substantial amount of
+evidence that is more than we can manage for a RES, we may not perform
+wider searches for further evidence and indeed may narrow the
+eligibility criteria further based on the quality, comprehensiveness or
+timeliness of the evidence.
+
+In cases where there is little or no evidence, or even outdated
+evidence, on the specific health and care innovations and we opt to
+adapt wider eligibility criteria as noted in Section 2, we expand the
+search for broader, more \textbf{\emph{indirect evidence}} that does not
+perfectly match the specific population, innovation, context, or outcome
+of interest, but may still provide useful insights.
+
+\textbf{Study selection}
+
+A single reviewer normally performs study selection, although
+consultation with a second reviewer is often undertaken. We often the
+online tool \href{https://www.rayyan.ai/}{Rayyan} to facilitate the
+study selection process.
+
+\textbf{Section summary}
+
+We normally follow a traditional approach to constructing a search
+strategy, using Boolean operators to combine search terms, and using
+commonly used resources to search for evidence.
+
+We often take a flexible approach to searching for evidence for a RES,
+beginning with a focus on direct evidence and, where necessary,
+expanding to search for evidence on wider, more indirect evidence.
+
+\textbf{Tasks to complete:}
+
+☐ Search electronic databases and, where applicable, other resources,
+referring to the
+\href{https://livemanchesterac-my.sharepoint.com/personal/chunhu_shi_manchester_ac_uk/Documents/Documents/Research/Projects/RES/Manual/Development\%20and\%20execution\%20of\%20searches.docx}{Development
+and execution of searches} document
+
+·~~~~~~ Choose databases and other resources that you consider
+appropriate for searches
+
+·~~~~~~ Build appropriate search strategies
+
+·~~~~~~ Perform searches
+
+·~~~~~~ Download and manage search results
+
+☐ Screen studies for inclusion against the pre-specified eligibility
+criteria
+
+☐ Document literature search and selection
+
+\bookmarksetup{startatroot}
+
+\chapter{Section 4. Extracting data and assessing the validity and
+certainty of
+findings}\label{section-4.-extracting-data-and-assessing-the-validity-and-certainty-of-findings}
+
+Extracting relevant information and critically appraising the research
+evidence and assessing its (un)certainty is a vital part of the RES
+process. This section describes our streamlined approaches to these
+elements of the RES and shares our practical tips.
+
+By the end of this section, you should:
+
+·~~~~~~ Understand the streamlined approach to extracting information
+for a RES
+
+·~~~~~~ Understand the streamlined approach to critically appraising
+research for a RES
+
+·~~~~~~ Understand different approaches to critical appraisal for
+different types of research
+
+·~~~~~~ Understand the GRADE-based approach to assessing the certainty
+of research evidence by considering study validity, relevance,
+consistency, and applicability.
+
+\textbf{Extracting relevant study information for a RES}
+
+A structured data extraction form is typically used when completing
+systematic reviews. ~Once the information and data are extracted,
+reviewers summarise the data and synthesise the information using
+quantitative and non-quantitative approaches.
+
+By contrast, a RES does not necessarily follow a structured data
+extraction process. Instead, we adopt a streamlined
+`mapping---prioritising---extracting---summarising' approach:
+
+\begin{itemize}
+\item
+\item
+  \textbf{Mapping}: When a RES addresses multiple questions, we group
+  the included studies according to each question.
+\item
+\item
+  \textbf{Prioritising}: If multiple studies report on the same topic or
+  RES question, we aim to summarise all the relevant research. However,
+  if the volume of research is unmanageable, we prioritise the most
+  directly relevant, high-quality, comprehensive, and recent research,
+  particularly existing evidence synthesis.
+\item
+\item
+  \textbf{Extracting}: Following mapping and prioritisation, we extract
+  key information from the included research. We focus on extracting the
+  information that tells decision-makers what we have included (in terms
+  of the study characteristics) and what the research evidence tells us:
+
+  \begin{itemize}
+  \item
+  \item
+    Author(s) and year of publication
+  \item
+  \item
+    Basic characteristics (e.g., countries, conditions, or other
+    relevant factors)
+  \item
+  \item
+    Study design and critical appraisal
+  \item
+  \item
+    Innovations evaluated
+  \item
+  \item
+    Outcomes and results
+  \item
+  \end{itemize}
+\item
+\end{itemize}
+
+Following a streamlined approach, we incorporate the key information
+directly into the synthesis, presenting it in narrative form rather than
+in data extraction tables.
+
+\begin{itemize}
+\item
+\item
+  \textbf{Summarising}: See Section 5 for more details of evidence
+  synthesis approaches. Because we typically have multiple studies or
+  reviews for each RES question, we often include multiple studies for
+  each question, making it impractical or not helpful to present a
+  narrative for the above information for every study. We therefore
+  focus on the most comprehensive, high-quality and recent research,
+  starting with existing systematic reviews. We then assess whether
+  additional studies offer new insights or present conflicting findings.
+  We draw overarching conclusions across all included studies for each
+  question, using this approach.
+\item
+\end{itemize}
+
+\textbf{Critical appraisal: how-to steps}
+
+First, we examine whether the included studies have associated, existing
+critical appraisal. When we include a systematic review, we often use
+the critical appraisal of the included studies from the systematic
+review. When no appraisal result is reported, we will perform our own
+critical appraisal.
+
+\textbf{Step 1. Understanding what needs to be appraised}
+
+In evidence synthesis, the evidence from individual studies and the body
+of the evidence produced from synthesising these individual studies are
+related but distinct. Thus, we normally focus on two general issues when
+deciding what needs to be appraised in a RES:
+
+·~~~~~~ The validity of the research findings from individual studies,
+i.e.~whether the design and methods used in the included research are
+robust and the research findings are trustworthy.
+
+·~~~~~~ Our confidence in the body of the total evidence reported in the
+RES and our interpretation of its relevance to the motivating context
+and questions.
+
+We often begin by appraising the validity of the included studies,
+followed by assessing our confidence in the evidence synthesised from
+the studies.
+
+\textbf{Step 2. Choose the appropriate critical appraisal tools}
+
+\textbf{\emph{Assessing the validity of research results}}
+
+In appraising the validity of the research results, we consider how
+robust the included research is, assessing the risk of bias using the
+appropriate tools (see Table 2). This assessment considers whether the
+included research was conducted in a manner that minimises the risk of
+biased results and ensures the trustworthiness of the results.
+
+{[}\textbf{Table 2: Risk of Bias tools for different types of
+evidence}{]}
+
+When we include existing systematic reviews in a RES, we use the ROBIS
+tool to appraise them. Alongside the four ROBIS domains, we may also
+consider how old a review is (i.e., the date its searches were
+performed) to assess whether the evidence is sufficiently contemporary.
+When including primary research in a RES, we comment on the
+methodological limitations following the guidance in the ROBINS-I tool
+{[}10{]}. See the example in Box 3.
+
+{[}Box 3. Example of commenting on methodological limitations in the RES
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing\%20policies\%20that\%20restrict\%20the\%20use\%20of\%20outdoor\%20spaces\%20for\%20advertising\%20harmful\%20commodities/ARC-GM\%20RES\%20outdoor\%20advertising\%20harmful\%20commodities\%20revised.pdf}{Restricting
+advertising in public spaces}{]}
+
+\textbf{\emph{Assessing our confidence in the evidence presented}}
+
+This process considers the risk of bias and other factors to draw wider
+conclusions about our certainty in the overall, synthesised results
+being reported. This assessment follows the GRADE approach, which was
+originally designed to support certainty assessment in systematic
+reviews and Guidelines. More details of how to conduct GRADE assessment
+are available in the
+\href{https://gdt.gradepro.org/app/handbook/handbook.html}{GRADE
+handbook}.
+
+In short, the GRADE approach rates how certain we are about our
+interpretation of the synthesised evidence, and the certainty is rated
+using the following categories:
+
+·~~~~~~ \textbf{high} certainty, indicating that we are confident that
+the research findings reflect a true finding for that question;
+
+·~~~~~~ \textbf{moderate} certainty, indicating that we are fairly
+confident that the finding reflects a true effect;
+
+·~~~~~~ \textbf{low} certainty, indicating that we have limited
+confidence in the findings, and more research is likely to change our
+conclusions;
+
+·~~~~~~ \textbf{uncertain}, indicating that there are no clear
+conclusions, based on the evidence for that question.
+
+In the RES approach, wherever possible and appropriate, we use the GRADE
+assessments already reported in the included systematic reviews. Where
+we need to undertake a new GRADE assessment of our RES findings, we
+employ a rapid approach to form a judgement. This assessment considers
+multiple factors listed below. We apply the same GRADE criteria to
+assess the certainty of evidence for each factor. Using a rapid
+approach, we highlight the key issues contributing to uncertainty
+without formally tabulating the assessment results of all factors. Also,
+unlike the formal GRADE process, we do not consider the impact of
+publication bias in our synthesis due to the rapid approaches to
+searching employed.
+
+·~~~~~~ \textbf{\emph{Study limitation}}. The methodological limitations
+identified for the included studies,
+
+·~~~~~~ \textbf{\emph{Consistency}}. Whether the different studies have
+similar findings,
+
+·~~~~~~ \textbf{\emph{Precision}}. How clear the reported effect size
+is, and/or how much data (e.g., sample sizes) is used to produce the
+effect size, offers a standardized measure of the magnitude of the
+effect, allowing for a more meaningful interpretation of the findings.
+Here the effect size is a measure people use to convey the information
+about the magnitude or practical importance of the effect of a
+treatment. It contains the practical information whether the effect is
+large enough to be meaningful in the real world.
+
+·~~~~~~ \textbf{\emph{Directness}}. How relevant the findings are to our
+question.
+
+See the example in the Box 4.
+
+{[} Box 4. Example of commentary GRADE assessment in the RES
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing\%20policies\%20that\%20restrict\%20the\%20use\%20of\%20outdoor\%20spaces\%20for\%20advertising\%20harmful\%20commodities/ARC-GM\%20RES\%20outdoor\%20advertising\%20harmful\%20commodities\%20revised.pdf}{Restricting
+advertising in public spaces} {]}
+
+\emph{Further consideration of evidence relevance in a RES}
+
+We usually summarise our assessment of the evidence as being of direct
+or indirect relevance to the specific innovations and populations of
+interest, and local or regional health and care systems.
+
+In practice, we often consider the NHS context but may also consider
+more locally relevant factors, such as whether an assessment was
+conducted in a highly urbanised or rural area, and whether the study
+population reflects that of a specific region as well as the UK more
+broadly.
+
+\textbf{Step 3. Document critical appraisal methods and results}
+
+In conducting a systematic review, it is common practice to use a
+structured critical appraisal form to guide and document the appraisal
+process. Systematic reviews typically require detailed documentation of
+the results of the critical appraisal process, including the specific
+considerations used to assess each source of bias and the presentation
+of assessment results in tables and/or figures.
+
+However, rather than documenting the critical appraisal methods and
+results in a detailed and structured way, our RES approach briefly
+mentions the appraisal methods in the Methods section of the RES
+protocol. Key study limitations identified during the appraisal are
+summarised in the RES (see Section 5 for further discussion), but we do
+not consider it necessary to retrieve and capture extensive information
+to justify the risk of bias assessments.
+
+\textbf{Section summary}
+
+We often take a streamlined approach to critical appraisal and assessing
+the certainty of the evidence included for a RES. This assessment
+considers the validity of the included studies and the relevance of the
+research results to each RES.
+
+\textbf{Tasks to complete:}
+
+☐ Choose critical appraisal tools that match the designs of the included
+studies
+
+☐ Critically appraise the included studies using appropriate tools
+
+\bookmarksetup{startatroot}
+
+\chapter{Section 5: Synthesising and summarising the
+evidence}\label{section-5-synthesising-and-summarising-the-evidence}
+
+In this section, we describe how to synthesise the evidence for a RES.
+
+By the end of this section, you should:
+
+·~~~~~~ Understand the narrative approach to synthesising evidence in a
+RES.
+
+·~~~~~~ Understand how available evidence and assessments of validity
+and certainty are reported.
+
+\emph{Presenting key findings of the RES}
+
+We normally use narrative synthesis to report the evidence, mapped to
+each RES question. Narrative synthesis involves descriptively
+summarising and interpreting findings across studies. It is a common
+method when other forms of synthesis (e.g., statistical synthesis) are
+not possible. We rarely perform meta-analysis, but we often summarise
+meta-analyses that have been reported in the included systematic
+reviews. Meta-analysis is a way of combining the results of several
+similar studies to get a more strong answer than any single study can
+provide.
+
+Different types of data (i.e., quantitative or qualitative) are
+synthesised differently. For narrative syntheses of quantitative data,
+our summaries of the evidence typically include the following
+information:
+
+·~~~~~~ The type and quantity of evidence (e.g., the number and type of
+studies included and their sample sizes),
+
+·~~~~~~ Effect sizes, including average effect sizes and the confidence
+intervals, or numerical counts of studies that favour an innovation or
+intervention,
+
+·~~~~~~ The direction of effect sizes, which indicate whether results
+favour one innovation over another, and the size and meaning of that
+difference in practical or clinical terms.
+
+This information is drawn together as in the example in Figure 5 (a
+synthesis of quantitative data). In this example, information from
+direct and indirect evidence is presented separately. In some cases,
+this distinction is just made clear in the summary text.
+
+These summaries of findings can also highlight the methodological
+limitations of the evidence being presented, as identified in the risk
+of bias assessment, and also present the level of certainty resulting
+from the GRADE assessments. Incorporating the assessment of the
+certainty of evidence can help gauge how likely it is that the presented
+results are close to the truth.
+
+{[}Figure 5. An example of quantitative synthesis from the RES
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing\%20policies\%20that\%20restrict\%20the\%20use\%20of\%20outdoor\%20spaces\%20for\%20advertising\%20harmful\%20commodities/ARC-GM\%20RES\%20outdoor\%20advertising\%20harmful\%20commodities\%20revised.pdf}{Restricting
+advertising in public spaces}{]}
+
+\emph{Presenting a summary of the RES evidence}
+
+Each RES presents a brief summary of the evidence presented. Where there
+are \ul{\textbf{multiple RES questions}}, we present the evidence
+summaries across all questions more concisely (Box 5). This is like the
+`abstract' of a systematic review?
+
+{[} Box 5. Example of evidence summary in the RES
+\href{https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing\%20policies\%20that\%20restrict\%20the\%20use\%20of\%20outdoor\%20spaces\%20for\%20advertising\%20harmful\%20commodities/ARC-GM\%20RES\%20outdoor\%20advertising\%20harmful\%20commodities\%20revised.pdf}{Restricting
+advertising in public spaces} {]}
+
+\textbf{Section summary}
+
+In RES reports, we often use a narrative approach to synthesise
+evidence, highlighting the type and quantity of evidence, the size of
+effect or association, and their clinical or health significance.
+
+Instead of extracting data using a structured form, we map the included
+studies to each RES question. When several studies are available for one
+question, we prioritise those that are most directly relevant,
+high-quality, comprehensive, and recent. Key information is then
+extracted and integrated directly into the narrative synthesis.
+
+We summarise the evidence across all included studies and incorporate
+the certainty of evidence into the interpretation of RES findings,
+following a streamlined GRADE approach.
+
+\textbf{Tasks to complete:}
+
+☐ Map and prioritise the included studies to the RES questions; extract
+sufficient information and summarise the evidence from the included
+studies.
+
+☐ Present the summary of evidence alongside the certainty of the
+evidence
+
+\bookmarksetup{startatroot}
+
+\chapter{Section 6. Presenting and communicating
+findings}\label{section-6.-presenting-and-communicating-findings}
+
+In this section, we consider ways of presenting information in the RES
+to maximise understanding of the findings and their implications.
+
+By the end of this section, you should:
+
+·~~~~~~ Understand how to write RES reports using clear and accessible
+language
+
+The target audience for a RES is normally policy- or decision-makers who
+are frequently not research or evidence synthesis experts. The
+readability of a RES is important. We outline key factors that we
+believe will make a RES accessible and user-friendly.
+
+\textbf{Clear summaries with user-friendly language and formatting:} We
+always provide a summary of the evidence for each key question(s), even
+when little or no (useful) evidence is identified (Box 5). Each question
+is addressed separately. Where possible, we summarise existing evidence
+as a narrative synthesis as detailed in Section 5 with an assessment of
+certainty and relevance.
+
+~We try to present the findings of a RES:
+
+\begin{itemize}
+\item
+\item
+  Using simple language, free of jargon and technical language wherever
+  possible;
+\item
+\end{itemize}
+
+·~~~~~~ Where using technical terms cannot be avoided, provide
+explanations in simple language;
+
+\begin{itemize}
+\item
+\item
+  Using easy-to-understand statistical information;
+\item
+\item
+  Using visual elements to complement text, such as tables and figures;
+\item
+\end{itemize}
+
+·~~~~~~ Using an easy-to-follow layout with subheadings, bullet points,
+and a consistent style.
+
+\textbf{Concise reporting}: We usually begin a RES with a 1 to 2 page
+summary of the main findings, in order to communicate the questions and
+answers upfront. This summary is followed by the full report which is
+typically 10 to 20 pages in length. See the examples in Box 2. We refer
+you to the very useful Cochrane
+\href{https://training.cochrane.org/system/files/uploads/protected_file/GUIDAN~1.PDF\#page=8}{guidance}
+on writing a plain language summary along with their
+\href{https://view.officeapps.live.com/op/view.aspx?src=https\%3A\%2F\%2Fwww.cochrane.org\%2Fauthors\%2Fhandbooks-and-manuals\%2Fhandbook\%2Fcurrent\%2Ftemplate-writing-cochrane-plain-language-summary.docx&wdOrigin=BROWSELINK}{template}.
+
+\textbf{Objective tone}: A RES presents evidence that helps
+decision-makers make informed choices about adopting and implementing
+innovations. The report should be written in an objective tone, focusing
+solely on the evidence itself. We refrain from making recommendations
+about whether to adopt or reject an innovation or intervention because
+we believe that research evidence is only one piece of information that
+needs to be considered in decision-making.
+
+\textbf{Section summary}
+
+A RES report often begins with a 1--2 page summary, followed by a full
+report of 10--20 pages.
+
+We present RES findings using clear, plain language and try to keep
+reports concise.
+
+\textbf{Tasks to complete}
+
+☐ Write up a RES report, referring to
+\href{https://arc-gm.nihr.ac.uk/rapid-evidence-synthesis}{examples} of
+RES reports
+
+☐ Write a Summary section in a RES report, referring to the Cochrane
+plain language summary
+\href{https://view.officeapps.live.com/op/view.aspx?src=https\%3A\%2F\%2Fwww.cochrane.org\%2Fauthors\%2Fhandbooks-and-manuals\%2Fhandbook\%2Fcurrent\%2Ftemplate-writing-cochrane-plain-language-summary.docx&wdOrigin=BROWSELINK}{template}
+and
+\href{https://training.cochrane.org/system/files/uploads/protected_file/GUIDAN~1.PDF\#page=8}{guidance}
+
+☐ Check the readability of the RES report
+
+\bookmarksetup{startatroot}
+
+\chapter*{References}\label{references}
+\addcontentsline{toc}{chapter}{References}
+
+\markboth{References}{References}
+
+\protect\phantomsection\label{refs}
+
+
+
+
+\end{document}
