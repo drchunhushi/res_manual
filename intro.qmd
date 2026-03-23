@@ -1,0 +1,77 @@
+# Context
+
+## The role of evidence synthesis in knowledge mobilisation
+
+Lord Darzi’s 2024 review of the NHS in England highlights a progressive decline in NHS services [@darzi8independent]. In line with the issues raised in the review, the Government has introduced a 10 Year Health Plan for England [@england10year]. The Plan emphasises the urgent need for reform in response to the rising demand for care, noting opportunities to drive improvements through the timely adoption and spread of changes in health and social care including innovations in digital technology [@england10year]. It stresses that embracing innovation is key to transforming services and delivering better outcomes for the public.
+
+However, the impact of innovation relies on the use of effective approaches that offer value for money. The Innovation Ecosystem Programme report reinforces this by recommending robust evaluation before innovations are implemented or de-implemented [@roland2024innovation]. For health and care commissioning groups in England, such as NHS Integrated Care Boards, this creates a need for **timely and rapid evidence** to support decisions about innovation adoption. In practice, decision-makers often need to know:
+
+-   *Has this innovation, or planned change, been shown to make a positive difference to care and/or outcomes?*
+
+-   *How certain is the research evidence?*
+
+As has long been recognised, *“the capacity to generate scientific evidence \[… …\] has greatly exceeded the ability to apply it to public policy in anything but the most general way.“* Without effective mobilisation, much of the learning from research is lost when timely, relevant, and accessible evidence is urgently required to inform actionable insights on adopting innovations. Additionally, the time and resources devoted to producing evidence may have a limited impact on the wider health and care system.
+
+Knowledge mobilisation (KM) addresses this gap by translating research evidence into actionable insights and supporting the use of research evidence in clinical practice and policymaking. Knowledge mobilisation brings “diverse communities together to share and create new knowledge in the context of its use to actively change something”, and it emphasises the importance of making evidence timely, relevant, accessible, and actionable for decision-makers (Knowledge Mobilisation Alliance).
+
+To support knowledge mobilisation, the NIHR-funded Applied Research Collaboration Greater Manchester (ARC-GM) has developed a framework for rapid evidence synthesis (RES) that delivers timely evidence summaries driven by the need for evidence [@norman2022rapid]. In the context of knowledge mobilisation, the purpose of this RES approach is to summarise and mobilise accessible research evidence for decision-makers who might otherwise have limited capacity to access, appraise and summarise evidence to support decision-making.
+
+## How to Use this User Guide
+
+The ARC-GM created this guide to support individuals and teams who wish to apply the ARC‑GM RES approach in their own settings. It provides a step‑by‑step guide to planning, conducting, and communicating a Rapid Evidence Synthesis, from the initial formulation of questions through to interpretation and reporting.
+
+The guide includes the following sections:
+
+-   An introduction to Rapid Evidence Synthesis
+
+-   Developing the RES protocol in collaboration with decision-makers
+
+-   Searching for and selecting relevant research evidence
+
+-   Extracting data and assessing the validity and certainty of findings
+
+-   Synthesising and summarising the evidence
+
+-   Interpreting and communicating findings
+
+Given the above structure of this guide, you are recommended to start with its first section, and then work yourself through it one section after another. This is particularly true if you have no previous experience with any type of [evidence synthesis]{#es title="This is the systematic process of gathering information from various sources and disciplines to inform discussions and decisions on specific issues" style="color: magenta"}.
+
+Each section includes essential learning materials, further learning resources, practical tips, examples, and tools drawn from real‑world RES projects commissioned across the health and care system. We use text boxes to present examples, tips, and further learning resources.
+
+After reading each section, you might find it helpful to complete the tasks listed at the end to consolidate your learning.
+
+Throughout this guide, we embed helpful forms to facilitate the completion of your RES activities. Such forms are freely available and downloadable.
+
+We also highlight jargon or terminologies using this [colour]{#colour title="Coloured texts like this has a definition" style="color: magenta"}. You can read their definitions or explanations by hovering your cursor over the highlighted text.
+
+## Potential Users of this Guide
+
+This user guide aims to walk people through the different steps involved in producing a RES, enabling them to produce their own RES **independently**, from an initial idea to the final product used to facilitate further knowledge mobilisation activities.
+
+The targeted users of this guide include:
+
+-   individuals working within health and care systems who are interested in using RES as a knowledge mobilisation product to inform decision-making; and/or
+
+-   research or knowledge mobilisation teams within academic, NHS, charity or other institutions who have research and/or knowledge mobilisation capacities and are committed to producing RES to support those delivering health and social care.
+
+This material assumes that those considering a RES will have some prior knowledge of how to systematically review research evidence and knowledge of how the findings of primary research of various types can be synthesised. Prior experience in conducting systematic reviews and meta-analyses, however, is not required.
+
+Those who want to explore the essentials of evidence synthesis can look at the introductory video.
+
+{{< video https://www.youtube.com/watch?v=egJlW4vkb1Y >}}
+
+::: {.callout-tip collapse="true"}
+## Click here to access further online resources produced by the Cochrane Collaboration
+
+### Cochrane Evidence Essentials
+
+This is an introduction to evidence synthesis, clinical trials and the application of evidence. It is designed for patients and the public, policy makers and members of healthcare teams.
+
+Click [here](https://www.cochrane.org/learn/courses-and-resources/evidence-essentials) to access the resources. This resource is free to use, with a Cochrane account ([free to sign up](https://account.cochrane.org/)). 
+
+### NIHR Knowledge Mobilisation resources
+
+NIHR compiles a set of Applied Research Collaboration and NIHR resources that introduce implementation, knowledge mobilisation and impact. It’s for people who are new to the field and want to find out more.
+
+Click [here](https://arc-w.nihr.ac.uk/training-and-capacity-building/arc-west-courses/an-nihr-arc-guide-to-resources-about-implementation-knowledge-mobilisation-and-impact/course-page/) to access the resources.
+:::

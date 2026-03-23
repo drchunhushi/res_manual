@@ -1,0 +1,15 @@
+# Preface {.unnumbered}
+
+The demand for timely, reliable, and actionable evidence to inform decision‑making in health and social care has never been greater. Across the NHS and wider care systems, organisations face growing pressures to adopt effective innovations, improve service delivery, and respond rapidly to population needs. Yet the traditional processes for identifying, appraising, and synthesising research evidence can be time‑consuming and resource‑intensive, widening the gap between the generation of research and its practical use.
+
+Rapid Evidence Synthesis (RES) offers a pragmatic and responsive approach to closing this gap for facilitating rapid knowledge mobilisation. Developed by the NIHR Applied Research Collaboration Greater Manchester (ARC‑GM), the RES approach is designed to mobilise existing evidence quickly, transparently, and in a way that remains robust enough to support real‑world decisions. RES prioritises relevance, clarity, and usability—focusing on what decision‑makers will find the most useful for their regional practice.
+
+This user guide has been created to support individuals and teams who wish to apply the ARC‑GM RES approach in their own settings. It provides a step‑by‑step guide to planning, conducting, and communicating a Rapid Evidence Synthesis, from the initial formulation of questions through to interpretation and reporting.
+
+The user guide is intended for a wide range of users, including researchers, knowledge mobilisation specialists, analysts, clinicians, commissioners, and policy teams. Whether you are producing a RES independently or working in partnership with decision‑makers, or setting up your own RES team for producing commissioned RES, this guide aims to enhance your confidence and capability in generating timely, meaningful, and context‑sensitive summaries of research evidence.
+
+Ultimately, the purpose of RES is not simply to synthesise and mobilise knowledge, but to support informed, transparent, and evidence‑driven decisions that can improve outcomes for patients, communities, and health and care services. We hope that this guide equips you with the skills and understanding needed to contribute to that goal.
+
+## Contact Us
+
+To learn more about the Rapid Evidence Synthsis project of the NIHR Applied Research Collaboration Greater Manchester (ARC‑GM), visit [ARC GM \| Rapid Evidence Synthesis](https://arc-gm.nihr.ac.uk/rapid-evidence-synthesis) for contact information.
