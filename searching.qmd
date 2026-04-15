@@ -95,9 +95,9 @@ When database searching yields insufficient evidence for a RES, you may undertak
 
 When pre-appraised evidence is not available, limited or outdated, and primary studies need to be considered for inclusion in a RES, then further searches can be performed in databases such as Medline, Embase and others as appropriate.
 
-In reporting literature searches, RES reports do not usually present full search strategies and methods (for example, Boolean and proximity operators, subject headings, text words, or limits and filters). Instead, it is often sufficient to provide a **brief description of essential search details**, typically including the **databases and additional resources searched**, the **key concepts**, and the **search dates**, whilst full search strategies are kept available on request. Figure 3 presents an example of the **Search** section from the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities.pdf).
+In reporting literature searches, RES reports do not usually present full search strategies and methods (for example, Boolean and proximity operators, subject headings, text words, or limits and filters). Instead, it is often sufficient to provide a **brief description of essential search details**, typically including the **databases and additional resources searched**, the **key concepts**, and the **search dates**, whilst full search strategies are kept available on request. @fig-3 presents an example of the **Search** section from the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities.pdf).
 
-![Figure 3. Example of literature searches for the RES “Restricting advertising in public spaces”](images/Picture3.png)
+![Example of literature searches for the RES “Restricting advertising in public spaces”](images/Picture3.png){#fig-3}
 
 ### Refining the search
 
