@@ -1,0 +1,185 @@
+---
+format: html
+resources:
+  - forms/Data extraction form template (quant).xlsx
+---
+
+# Extracting data and assessing the validity and certainty of findings
+
+Extracting relevant information, critically appraising the research and assessing the certainty (or uncertainty) of the relevant evidence are core components of the RES process. This section describes streamlined approaches to data extraction and critical appraisal for a RES and shares practical tips.
+
+## Learning objectives
+
+By the end of this section, you should:
+
+-   Understand the streamlined approach to extracting information for a RES
+
+-   Understand the streamlined approach to critically appraising research for a RES
+
+-   Understand different approaches to critical appraisal for different types of research
+
+-   Understand the GRADE-based approach to assessing the certainty of research evidence by considering study validity, relevance, consistency, and applicability.
+
+For readers who would like an introduction to the data extraction and criticial appraisal process, please watch the video below.
+
+{{< video https://www.youtube.com/watch?v=Z3o8Fqil9Hc >}}
+
+## Extracting relevant study information for a RES
+
+In systematic reviews, reviewers typically use a structured data extraction form, and the processes of data extraction and synthesis are often performed as distinct steps. After the data are extracted and checked, reviewers use well-established quantitative and non-quantitative methods to summarise and synthesise the data across included studies. For quantitative evidence, synthesis may involve statistical analyses (for example, meta-analysis) and careful consideration of some issues such as the exploration of variations in effect sizes between studies.
+
+By contrast, a RES does not always require a fully structured data extraction process because its synthesis is more like the representation of available research findings alongside critical appraisal, rather than emphasising statistical analysis and its extraction can be easily integrated within the synthesis process.
+
+That said, using a structured data extraction form can still be helpful, particularly fthose who are new to RES methods. See the [data extraction form template (xlsx)](forms/Data extraction form template (quant).xlsx) (click to download) as an example for quantitative research.
+
+For a RES, a streamlined ‘mapping—prioritising—extracting—summarising’ approach can be used:
+
+-   **Mapping**: When a RES addresses multiple questions, the included studies can be grouped according to each question.
+
+-   **Prioritising**: If multiple studies report on the same topic or RES question, it is recommended to summarise all the relevant research. However, if the volume of research is unmanageable, it is suitable to prioritise the most directly relevant, high-quality, comprehensive, and recent research, particularly existing evidence synthesis.
+
+-   **Extracting**: Following mapping and prioritisation, key information can be extracted from the included research. The extraction can focus on the information that tells decision-makers what you have included (in terms of the study characteristics) and what the research evidence tells them:
+
+    -   Author(s) and year of publication
+
+    -   Basic characteristics (e.g., countries, conditions, or other relevant factors)
+
+    -   Study design and critical appraisal
+
+    -   Innovations evaluated
+
+    -   Outcomes and results
+
+<!-- -->
+
+-   **Summarising**: See **Section 5** for further detail on evidence synthesis approaches. Often, multiple studies or reviews are identified for each RES question. It is impractical or not helpful to present a detailed narrative summary of the above information for every study. Thus, RES synthesis can prioritise the most comprehensive, high-quality and recent research, beginning with existing systematic reviews where available. Additional studies can then be assessed to determine whether they add new insights or present conflicting findings. This approach supports the development of **overarching conclusions** drawn across all included evidence for each question.
+
+## Critical appraisal: how-to steps
+
+First, it is useful to check whether the included research has existing critical appraisal. When a RES includes a systematic review, you can draw on the review's critical appraisal of its included studies if this is reported and considered fit for purpose. When the appraisal result is not reported or inappropriate, critical appraisal should then be performed as part of the RES. Below are some suggested considerations for critical appraisal:
+
+### Step 1. Understanding what needs to be appraised
+
+In evidence synthesis, critical appraisal can refer to two related but distinct elements of evidence, and it is important to keep them separate.
+
+-   the findings from individual studies;
+
+-   the overall body of the evidence produced through synthesising these individual studies.
+
+Accordingly, we normally focus on two general issues when deciding what needs to be appraised in a RES:
+
+-   The **validity** of the research findings from individual studies
+
+    This is about whether the design and methods used in the included research are robust and the research findings are trustworthy.
+
+-   **Confidence** in the body of the total evidence reported in the RES and our interpretation of its **relevance** to the motivating context and questions.
+
+The recommended practice is to begin with appraising the validity of the included studies, followed by assessing our confidence in the evidence synthesised from the studies.
+
+### Step 2. Choose the appropriate critical appraisal tools
+
+#### *Assessing the validity of research results* 
+
+There is a range of tools available for use to appraise the validity of the research results. They can be known as [risk of bias]{#rob title="This relates to the likelihood that the design or conduct of a study will produce biased (or misleading) results and influence our confidence in the results of individual studies and a body of related research evidence" style="color: magenta"} tools (see @tbl-3). This assessment considers whether the included research was conducted in a manner that minimises the risk of biased results and ensures the trustworthiness of the results.
+
++:------------------------------------------------------------------------------------------------+:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Tools**                                                                                       | **Types of evidence**                                                                                                                                                                                                                                                                                                                                                                 |
++-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [ROBIS](https://www.bristol.ac.uk/population-health-sciences/projects/robis/robis-tool/)        | For assessing the risk of bias in systematic reviews (rather than in primary studies).                                                                                                                                                                                                                                                                                                |
+|                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                 | This tool considers four domains through which bias may be introduced into a systematic review: study eligibility criteria; identification and selection of studies; data collection and study appraisal; and synthesis and findings.                                                                                                                                                 |
++-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [Cochrane's Risk of Bias tool](https://www.riskofbias.info/welcome/rob-2-0-tool)                | A tool used by Cochrane for appraising randomised controlled trials.                                                                                                                                                                                                                                                                                                                  |
+|                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                 | There are old and new versions of this tool and both can be used, though the newer version is rather more complex. Both tools focus on five key sources of bias: bias arising from the randomisation process; bias due to deviations from intended interventions; bias due to missing outcome data; bias in measurement of the outcome; and bias in selection of the reported result. |
++-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [ROBUST-RCT](https://www.bmj.com/content/388/bmj-2024-081199)                                   | Risk Of Bias instrument for Use in SysTematic reviews-for Randomised Controlled Trials may be a more a user-friendly alternative to the Cochrane Risk of Bias assessment tool.                                                                                                                                                                                                        |
++-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [ROBINS-I](https://www.riskofbias.info/welcome/home)                                            | Assesses the risk of bias of a specific result from individual non-randomised studies that assess the effect of an intervention on an outcome, i.e., studies of intervention effectiveness where randomisation has not been used to allocate the intervention or innovation.                                                                                                          |
+|                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                 | ROBINS-I considers seven domains that may introduce a risk of bias: confounding; classification of intervention; selection into the study; deviations from intended intervention; missing data; selection of reported results.                                                                                                                                                        |
++-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [QUADAS-C](https://www.bristol.ac.uk/population-health-sciences/projects/quadas/quadas-c/)      | QUADAS-C is designed to assess the risk of bias in studies that compare the accuracy of alternative diagnostic tests.                                                                                                                                                                                                                                                                 |
++-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [CASP checklists](https://casp-uk.net/casp-tools-checklists/)                                   | CASP checklists and the Joanna Briggs Institute critical appraisal tools offer alternative options to the above tools for different types of research.                                                                                                                                                                                                                                |
+|                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                       |
+| [Joanna Briggs Institute critical appraisal tools](https://jbi.global/critical-appraisal-tools) |                                                                                                                                                                                                                                                                                                                                                                                       |
++-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Risk of Bias tools for different types of evidence {#tbl-3}
+
+When a RES includes existing systematic reviews, these can be appraised using ROBIS. In addition to the domains covered in ROBIS, it is often important to consider how old a review is (i.e., the date its searches were performed) to judge whether the evidence is sufficiently contemporary.
+
+When a RES includes primary research, select a risk of bias tool appropriate to the study design, for example, the [ROBUST-RCT](https://www.bmj.com/content/388/bmj-2024-081199) for RCTs. @nte-3 presents an example of a critical appraisal that was performed using ROBINS-I for non-randomised studies of interventions.
+
+::: {#nte-3 .callout-important}
+## Example of commenting on methodological limitations in the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf)
+
+The evidence ... has **some uncertainties** due to the methodological limitations in both studies: (1) the use of self-reported awareness measures is subject to recall bias, and (2) they did not collect data on other factors that may explain or confound changes in awareness between the repeated surveys.
+:::
+
+#### *Assessing our confidence in the evidence presented* 
+
+This assessment goes beyond study-level risk of bias but indeed incorporates the risk of bias and other factors to draw a wider appraisal about the certainty in the overall, synthesised results being reported. This assessment follows the GRADE approach, which was developed to support certainty assessment in systematic reviews and guideline development. See the [GRADE handbook](https://gdt.gradepro.org/app/handbook/handbook.html) for detailed guidance.
+
+In short, the GRADE approach rates how certain we are about the interpretation of the synthesised evidence, and the certainty is rated using the following categories:
+
+-   **high** certainty, indicating that we are confident that the research findings reflect a true finding for that question;
+
+-   **moderate** certainty, indicating that we are fairly confident that the finding reflects a true effect;
+
+-   **low** certainty, indicating that we have limited confidence in the findings, and more research is likely to change our conclusions;
+
+-   **uncertain**, indicating that there are no clear conclusions based on the evidence for that question.
+
+Wherever possible and appropriate, a RES can use the GRADE assessments already reported in the included systematic reviews. Where such an assessment is not available and/or a new GRADE assessment of the RES findings is required, a GRADE judgement can be quickly made by considering the following factors.
+
+-   ***Study limitation***. The methodological limitations identified for the included studies,
+
+-   ***Consistency***. Whether the different studies have similar findings,
+
+-   ***Precision***. How clear the reported effect size is, and/or how much data (e.g., sample sizes) is used to produce the effect size, offers a standardized measure of the magnitude of the effect, allowing for a more meaningful interpretation of the findings. Here the effect size is a measure people use to convey the information about the magnitude or practical importance of the effect of a treatment. It contains the practical information whether the effect is large enough to be meaningful in the real world.
+
+-   ***Directness***. How relevant the findings are to a RES question.
+
+Unlike the formal GRADE process used for systematic reviews, the rapid GRADE approach does not consider the impact of publication bias in RES findings as a RES synthesis does not aim to the comprehensiveness and completeness of research evidence.
+
+When assessing each factor, it is recommended to apply the same GRADE criteria and principles wherever possible, but the use of a rapid approach means that you can highlight the key issues contributing to uncertainty, without formally tabulating the assessment results of all factors.
+
+As illustrated in @nte-4, the GRADE assessment in the RES [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf) highlights the main areas causing uncertainties, rather than explicitly documenting assessment across all GRADE factors.
+
+::: {#nte-4 .callout-important}
+## Example of commentary GRADE assessment in the RES [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf)
+
+… the review authors largely rated the included studies as **moderate or good quality**. The evidence **consistently** suggested that exposure to alcohol advertising increases the likelihood of adolescents starting to drink alcohol, and increased consumption if they already drink alcohol. We judge the evidence to be of **low certainty** given it is **indirectly relevant** to this RES.
+:::
+
+#### *Further consideration of evidence relevance in a RES* 
+
+To facilitate knowledge mobisation activities, it is important to judge whether the RES evidence is of direct or indirect relevance to the specific innovations and populations of interest, and local or regional health and care systems.
+
+In our practice within the ARC-GM RES team, we often consider the NHS context but may also consider more locally relevant factors, such as whether an assessment was conducted in a highly urbanised or rural area, and whether the study population reflects that of a specific region as well as the UK more broadly.
+
+### Step 3. Document critical appraisal methods and results
+
+In systematic reviews, it is common practice to use a structured critical appraisal form to guide and document the appraisal process. Systematic reviews typically require detailed documentation of the results of the critical appraisal process, including the specific considerations used to assess each source of bias and the presentation of assessment results in tables and/or figures.
+
+By contrast, a RES adopts a more proportionate approach. Rather than documenting critical appraisal methods and results in a highly detailed and structured format, a RES briefly mentions the methods in the **Methods** section, and summarises the key study limitations alongside the RES findings (see @nte-4). Retrieving and capturing extensive information to justify assessments is generally not necessary and may reduce the readability of a RES for decision-makers.
+
+::: {.callout-caution collapse="true"}
+## Further online resources (click to expand)
+
+Here are links to a series of articles in the *BMJ* that explain [how to read](https://www.bmj.com/about-bmj/resources-readers/publications/how-read-paper) and interpret different kinds of research papers, including systematic reviews and primary studies. They are written in plain language and introduce key concepts to consider when critically appraising research.
+:::
+
+## Section summary
+
+Instead of extracting data using a structured form, the RES approach often maps the included studies to each RES question. When several studies are available for one question, a RES prioritises those that are most directly relevant, high-quality, comprehensive, and recent. Key information is then extracted and integrated directly into the narrative synthesis.
+
+A streamlined approach can be used for critical appraisal and assessing the certainty of the evidence included for a RES. This assessment considers the validity of the included studies and the relevance of the research results to each RES.
+
+## Tasks to complete
+
+☐ Choose critical appraisal tools that match the designs of the included studies
+
+☐ Critically appraise the included studies using appropriate tools

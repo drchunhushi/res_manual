@@ -1,0 +1,358 @@
+---
+format: closeread-html
+---
+
+# An Introduction to Rapid Evidence Synthesis
+
+## Learning objectives
+
+By the end of this section, you should:
+
+-   Understand how the NIHR Applied Research Collaboration Greater Manchester (ARC-GM) approach to rapid evidence synthesis (RES) compares with other evidence synthesis approaches e.g., systematic and rapid reviews;
+
+-   Understand the key steps in producing a RES;
+
+-   Consider situations when generating a RES is feasible and useful.
+
+## Overview of evidence synthesis approaches
+
+In health and care systems, an **innovation** is any planned change to how health or social care is provided. For example, it could be:
+
+-   a new treatment,
+
+-   a new test,
+
+-   a new health technology system,
+
+-   a new public health policy or programme, or
+
+-   a new way of working.
+
+Health and social care organisations make decisions about whether to adopt and implement innovations all the time. Inherent in such decisions are considerations of evidence about:
+
+-   **effectiveness**: will this change make a positive difference in care and/or outcomes?
+
+-   **cost**: is this change worthwhile?
+
+-   **safety**: is this change unlikely to cause harm to service users, patients, staff or the wider system?
+
+To help make informed adoption decisions, decision-makers need to find, bring together and summarise the relevant research evidence—thus evidence synthesis—so it can be properly considered.
+
+::: callout-important
+## Definition
+
+*‘***Evidence synthesis** *refers to the process of bringing together information from a range of sources and disciplines to inform debates and decisions on specific issues. Decision-making and public debate are best served if policymakers have access to the best current evidence on an issue. An accurate, concise and unbiased synthesis of the evidence is therefore one of the most valuable contributions the research community can offer policymakers.’*
+
+From ‘***Evidence synthesis for policy: a statement of principles**’ by the Royal Society and the Academy of Medical Sciences*.
+:::
+
+Systematic reviews and rapid reviews are two commonly used evidence synthesis approaches. They share the main steps outlined below (@nte-1).
+
+::: {#nte-1 .callout-note}
+• Clearly define the question that the review is asking of the existing research, including a clear definition and understanding the relevant innovation
+
+• Outline a protocol or plan for the review
+
+• Search for potentially relevant research
+
+• Select the relevant research that can answer the question, using the inclusion criteria in the protocol
+
+• Extract relevant data from the research and appraise risk of bias (likely validity of the results)
+
+• Summarise and interpret the available research evidence, considering the certainty of evidence
+:::
+
+However, systematic reviews and rapid reviews differ in speed and the specific methods they use. The summary below describes what they are and outlines their key features and limitations.
+
+::: panel-tabset
+## Systematic review
+
+**What is it?**
+
+***Systematic reviews*** ‘*seek to collate evidence that fits pre-specified [eligibility criteria]{#eligibility title="In evidence synthesis, eligibility criteria are the rules applied to decide which studies to include or exclude" style="color: magenta"}* *in order to answer a specific research question. They aim to minimize bias by using explicit, systematic methods documented in advance with a protocol.*’
+
+From ***Cochrane Handbook for Systematic Reviews of Interventions*** [@cumpston2023chapter]
+
+**What are its key features?**
+
+Systematic reviews often follow exhaustive, comprehensive, and methodologically rigorous approaches to maximise completeness of the relevant evidence and minimise bias.
+
+-   Being well-acknowledged as the gold standard approach to summarising and synthesising research findings
+
+-   Following a pre-specified protocol (or plan)
+
+-   Conducting an exhaustive and comprehensive search to find research relevant to a well-defined question
+
+-   Involving two independent reviewers in data extraction and appraising the risk of bias in eligible studies
+
+-   The results of the research are interpreted in the light of how well the research was done and how likely the apparent results are to be ‘true.’
+
+**What are key limitations in the context of knowledge mobilisation?**
+
+-   Often resulting in a lengthy and exhaustive process, due to the use of dual processes during study screening, data extraction, and critical appraisal
+
+-   Taking, on average, approximately 23 months to produce [@bero2012measuring].
+
+## Rapid review
+
+**What is it?**
+
+Rapid review ‘*accelerates the process of conducting a traditional systematic review through streamlining or omitting specific methods to produce evidence for stakeholders in a resource-efficient manner*’ [@hamel2021defining].
+
+**What are the key features?**
+
+Rapid reviews have several core features that make them faster and more streamlined than systematic reviews:
+
+-   Share key steps with systematic reviews
+
+-   Follow rapid approaches to evidence synthesis, with certain elements curtailed. For example,
+
+    -   searches being limited to a specific time period
+
+    -   reviewers conducting an informal critical appraisal and quality assessment
+
+### What are the key limitations in the context of knowledge mobilisation?
+
+Even with these modifications, rapid reviews can still take months to deliver.
+:::
+
+Systematic reviews (and rapid versions of them) can take a long time to complete. This can delay the use of research findings in decision-making when people need them. In health and care services, decision-makers often need evidence-based insights within weeks—not months or years—to inform their decisions about scaling up (or scaling down) innovations. When suitable rapid evidence synthesis methods are not available, research evidence may be overlooked in decision- and policy-making. This situation led us to develop our rapid evidence synthesis approach. While it is not perfect, it helps ensure that existing research evidence is considered as part of the decision-making.
+
+## The ARC-GM Rapid Evidence Synthesis (RES) process
+
+The ARC-GM RES approach generates evidence-informed insights for decision-makers quickly to support health and care decision-making. It is applicable to inform decisions on a wide range of innovations; whether this is to improve treatment, diagnosis, education, outreach, prevention or research, with the long-term goals of improving quality, safety, outcomes, efficiency and cost saving.
+
+The RES process follows the steps of evidence synthesis outlined in @nte-1, but it can be completed in weeks rather than months or years.
+
+RES is designed to produce a ‘good-enough’ (rather than perfect) summary of the evidence to support decision-making in a short timeframe, where the alternative might be not using research at all. This approach focuses on providing a concise and up-to-date synthesis of the most relevant and methodologically robust evidence available.
+
+Key considerations when developing the RES approach include: speed, transparency, an emphasis on the relevance of the evidence, and a critical assessment of its robustness and usability.
+
+### *Speed* 
+
+The RES approach can deliver an evidence summary in 2–8 weeks, depending on the size and scope of the motivating questions. In the practice of our ARC-GM RES team, we achieve this by often prioritising and summarising existing, pre-appraised evidence synthesis, such as systematic reviews, in a brief summary for decision-makers. The approach can be applied to complex innovations and can still be used when the is sparse or only partly relevant to the context.
+
+### *Transparency and robustness*
+
+The principles of the [GRADE Evidence to Decision framework](#0) are central to the RES approach, which makes the RES transparent, consistent and reproducible.
+
+While not exhaustive, the RES ensures that uncertainties are clearly identified and acknowledged.
+
+### *Relevance and usability* 
+
+The RES approach considers how well the evidence identified is relevant—thus applicable—to the regional health and care system and context. It also emphasises a clear, user-friendly and accessible reporting so the evidence can be mobilised and used in real-world decision-making.
+
+## Deciding when to conduct a RES instead of other types of evidence synthesis
+
+Although the RES approach can be faster than many other evidence synthesis methods, it still requires substantial time and resources and may not be the right option for every inquiry. Try to think over the questions below before deciding to use the RES approach to address an inquiry:
+
+::: {.callout-tip icon="false"}
+-   How suitable is it to use the RES approach, and is there a better (evidence synthesis) approach to take?
+
+    -   When choosing an approach, DO consider the chance of drawing the wrong conclusion. What is the tolerance for decision-makers of drawing the wrong conclusion because the review approach increases the risk of missing key research?
+
+-   How practical and feasible is it to complete a RES? Is there existing evidence base for this area of inquiry?
+
+-   How useful and impactful are the potential findings of a RES likely to be in relation to decisions to adopt innovations in local health and care systems?
+:::
+
+Whilst a RES is often a good fit to address an inquiry for knowledge mobilisation, in some cases, it is not the best option. You need to carefully assess whether other evidence synthesis products, like systematic reviews, are more appropriate. We developed the [decision pathway](files/Decision pathway.docx) to help you choose which type of evidence synthesis is most appropriate to undertake.
+
+RES is designed primarily for ***knowledge mobilisation***: it brings together and summarises what is already known in existing evidence and presents it in a form that specific audiences can use for decision-making. When the goal of an evidence inquiry is to fill an evidence gap, thus generating new knowledge, other types of evidence synthesis may be more suitable.
+
+Here is an example scenario where a RES is more suitable for *knowledge mobilisation* than other types of reviews.
+
+::: callout-important
+## Example
+
+The Greater Manchester Integrated Care Partnership (GM ICP) Population Health team wanted to develop regional policies to restrict the advertising of harmful commodities in public sector–owned spaces such as public transport. To support timely policy decisions, the team needed rapid access to research evidence on what restriction policies had already been implemented in other regions and the potential health and financial impacts of such restrictions.
+
+In this case, the motivation of this evidence inquiry was **not** to produce a comprehensive, exhaustive review to fill an evidence gap on the topic. Instead, the priority was to **mobilise** the relevant evidence already available and present it in an accessible and actionable form to help inform decision-making. Decision‑makers needed a concise synthesis that could be delivered within tight timelines, telling them what is known to support policy development. A RES was therefore the appropriate approach.
+:::
+
+Evidence for a RES may come from existing systematic reviews, relevant primary studies that have not yet been synthesised, and other credible sources such as national guidance. Even when systematic reviews already exist, a RES can add value by translating the evidence into a more accessible format, incorporating critical appraisal of the evidence, and assessing how well the evidence applies to the regional context so it can be acted on.
+
+## An overview of key steps when conducting a RES
+
+The ARC-GM RES approach consists of several steps (see below), with further methodological detail available in our [journal publication](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-022-02106-z). The RES steps are not necessarily linear but iterative. The process is designed to be flexible and pragmatic, drawing on decision-makers, Patient and Public Involvement and Engagement (PPIE) and/or other partner input for co-design. You, as the reviewers, are allowed to refine the methods used at each stage, for example, by using exploratory methods in specific review activities.
+
+::: panel-tabset
+## Step 1. Describe the innovation and its purpose
+
+Begin by clearly defining the innovation:
+
+-   Is it a public health policy, a screening tool, a diagnostic or other test, a service, an organisational change, or something aimed at changing individual behaviours?
+
+Often, it is needed to identify relevant alternatives by considering:
+
+-   What alternatives to this innovation exist?
+
+-   What competing alternatives are available that could be used instead (this will include what is being used currently)?
+
+## Step 2. Formulate RES questions based on the key characteristics and aims of the innovation
+
+A single RES may address multiple types of questions, of which one type of questions often focuses on the effectiveness of an innovation, i.e., whether it ‘works’ to improve a condition or outcome.
+
+It is important to consider using appropriate frameworks to facilitate the formulation of RES questions. PICO(S) is well suited for 'what works' questions, and it helps specify:
+
+-   Population
+
+-   Intervention
+
+-   Comparator
+
+-   Outcomes
+
+-   Settings, where relevant.
+
+See the video to learn how to use the PICO framework to formulate a question.
+
+{{< video https://www.youtube.com/watch?v=7XyOGNliGuE >}}
+
+For other types of questions, there are other frameworks available for use (see @tbl-1).
+
++---------------------------+--------------+----------------------------------------------+
+| Type of questions         | Framework    | Components                                   |
++:==========================+:=============+:=============================================+
+| Aetiology                 | PEO          | -   Population                               |
+|                           |              | -   Exposure/Environment                     |
+|                           |              | -   Outcome                                  |
++---------------------------+--------------+----------------------------------------------+
+| Diagnostic test accuracy  | PIRD         | -   Population                               |
+|                           |              | -   Index Test                               |
+|                           |              | -   Reference Test                           |
+|                           |              | -   Diagnosis of Interest                    |
++---------------------------+--------------+----------------------------------------------+
+| Treatment                 | PICO         | -   Population                               |
+|                           |              |                                              |
+|                           |              | -   Intervention                             |
+|                           |              |                                              |
+|                           |              | -   Comparator                               |
+|                           |              |                                              |
+|                           |              | -   Outcomes                                 |
++---------------------------+--------------+----------------------------------------------+
+| Prognosis                 | PFO          | -   Population                               |
+|                           |              |                                              |
+|                           |              | -   Prognostic Factor (or model of interest) |
+|                           |              |                                              |
+|                           |              | -   Outcome                                  |
++---------------------------+--------------+----------------------------------------------+
+| Qualitative/Mixed-Methods | SPIDER       | -   Sample                                   |
+|                           |              |                                              |
+|                           |              | -   Phenomenon of Interest                   |
+|                           |              |                                              |
+|                           |              | -   Design                                   |
+|                           |              |                                              |
+|                           |              | -   Evaluation                               |
+|                           |              |                                              |
+|                           |              | -   Research type                            |
++---------------------------+--------------+----------------------------------------------+
+| Scoping                   | PCC          | -   Population                               |
+|                           |              |                                              |
+|                           |              | -   Concept                                  |
+|                           |              |                                              |
+|                           |              | -   Context                                  |
++---------------------------+--------------+----------------------------------------------+
+
+: Main frameworks used for facilitating the formulation of review questions {#tbl-1}
+
+When specifying RES questions, it may be helpful to start with a narrow and focused scope to maximise the relevance of the evidence. You can expand the scope when evidence is sparse, for example, by considering broader categories of innovations.
+
+## Step 3. Consider the study design that provides the most valid and reliable evidence for each question
+
+See @tbl-2. For questions related to innovation effectiveness, priority can be given to systematic reviews that include randomised controlled trials (RCTs). If relevant reviews are not available, outdated, or limited in scope, you can consider relevant individual studies that have been published recently. In this case, you may consider adjusting the eligibility criteria to encompass a broader range of research designs as needed.
+
+## Step 4. Use a focused and tailored approach to searching the literature
+
+Literature searches should be planned and conducted carefully, and where possible, you should look for advice from an expert or experienced librarian.
+
+Key sources of evidence you can use to search for the literature include databases such as the Cochrane Library and Medline. It is often helpful to consider additional resources like the National Institute for Health and Care Excellence (NICE) website when relevant.
+
+It is required to stringently screen search results based on pre-established eligibility criteria set out in the RES plan (i.e., ‘rules to apply’ when deciding whether to include or exclude articles).
+
+## Step 5. Extract relevant information and assess evidence validity and certainty
+
+Relevant information needs to be taken from the selected materials, including key findings and any assessments of validity and certainty if such assessment results are available.
+
+Where existing evidence has not previously had its validity or certainty assessed, you may perform the relevant assessments as needed using existing critical appraisal tools such as the Cochrane tool for assessing the risk of bias in RCTs [@higgins2019assessing] and the ROBINS-I tool for non-RCT evidence [@sterne2016robins]. The GRADE approach is widely used for assessing the certainty of a body of evidence [@guyatt2025core]. These judgements provide a sense of how confident we can be in the research findings. Additionally, at this stage it is vital for you to consider the relevance of the evidence to the local context in terms of service model, comparators and populations.
+
+## Step 6. Synthesising and summarising the evidence to answer the key questions
+
+It is strongly recommended to present a clear summary of findings, including a judgement of how confident we can be in them. This is to explain the nature of any uncertainty in the evidence, and how relevant it is to the key questions.
+
+In addition to synthesising existing evidence, this stage may also involve identifying priorities for further evaluation (e.g., questions to be addressed in proof-of-value work or large-scale deployment), ideally in collaboration with partners.
+:::
+
+We have produced RES for a range of innovations, and all are free to access on our website <https://arc-gm.nihr.ac.uk/rapid-evidence-synthesis>. Browsing a few reports may be a useful way to see what the RES process looks like in practice. This user guide draws on the following examples:
+
+-   [Restricting advertising in public spaces](#0)
+
+-   [Managing multiple long-term conditions](#0)
+
+-   [Integrated Neighbourhood Teams](#0)
+
+-   [Financial and debt advice in primary care](#0)
+
+-   [Remote Spirometry](#0)
+
+Below we illustrate the RES process using the example of [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf) (see @nte-2).
+
+::: {#nte-2 .callout-important collapse="true"}
+## Examples (click to expand)
+
+**Context**
+
+The RES on [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf) synthesised research evidence on the implications of implementing regional government policies to restrict the advertising of harmful commodities in public sector-owned spaces.
+
+The Greater Manchester Integrated Care Partnership (GM ICP) Population Health team commissioned us to produce this RES, aiming to inform the development of regional policies in this area.
+
+**RES process**
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Key steps                                                                                                                                                                                                                                                          | Examples                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
++:===================================================================================================================================================================================================================================================================+:==========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
+| **Describe the innovation**                                                                                                                                                                                                                                        | *Outdoor advertising often uses spaces owned by the public sector such as public transport, billboards, and street posters and screens to market unhealthy foods and non-alcoholic beverages (termed as ‘unhealthy food’ hereafter). Exposure to outdoor advertising of unhealthy foods may have adverse impacts on people’s attitudes, preferences, and behaviours towards consuming unhealthy foods, and thus be associated with obesity and non-communicable diseases. People from more disadvantaged groups are considered to have disproportionate exposure to greater food marketing. Implementing government-led policies to decrease the frequency and reach of food advertising and its power (i.e. the persuasive content and strategies used in advertising) have been suggested as a potential way to improve public health.* |
+|                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Through discussion with the GM ICP Population Health team, our first step was to describe the innovation that was the focus for this RES.                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Formulate the questions**                                                                                                                                                                                                                                        | *‘What are the implications of implementing government-led policies to restrict advertising of unhealthy foods in public sector-owned spaces \[**Interventions**\] for people of any age \[**participants**\] in terms of advertising outcomes, health outcomes, and financial impact on local authorities \[**outcomes**\]?’*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Again via collaborative processes we formulated the questions that the RES would seek to answer using the Population, Intervention, Control, Outcome (PICO) framework.                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| This RES was co-produced with the GM ICP team. It is most relevant to situations where you are commissioned to produce a RES. Where you are producing a RES for your own use as the knowledge user, co-producing the RES question with stakeholders may not apply. |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| In line with this question we defined the criteria that we used in deciding which studies were included or excluded.                                                                                                                                               | ***Participants:** We included evidence about impacts on people of any age, regardless of existing health conditions. We did not limit the countries where the included studies were conducted, but we considered that the evidence is directly relevant to the context of this RES if the related studies were conducted in the UK.*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                                                                                    | ***Interventions:** We included evaluations of the impact of any policy that aimed to restrict the advertising of unhealthy foods in public sector-owned spaces …*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                                                                                    | ***Comparators:** We considered reviews and studies with any comparator group, including no intervention, and alternative interventions.*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                                                                                    | ***Outcomes:** We included various outcomes which reflect the potential impact of the intervention in four domains …*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Consider the most appropriate study design**                                                                                                                                                                                                                     | '***Study design**: In the first instance we considered existing evidence syntheses, including systematic and scoping reviews of any design of primary study. We considered reviews of quantitative, qualitative, and mixed methods research as appropriate to the question addressed. We used a broad definition of systematic reviews as having a systematic search and clear inclusion criteria.*                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| In defining the eligibility criteria for the study design, we considered evidence synthesis as the primary source of evidence.                                                                                                                                     | *Where we were unable to identify relevant, existing evidence syntheses, or where the relevant review evidence was limited, we considered primary studies, looking at the most robust primary study designs first…’*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Search the literature**                                                                                                                                                                                                                                          | *We searched Medline (Ovid) and the Cochrane Library (including the Cochrane Database of Systematic Reviews and the Cochrane Register of Controlled Trials). Our searches were based on key terms around food and beverage, advertising, and outdoor or public assets. We also searched the reference lists of included reviews and used Google Scholar to identify further related articles.*                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| We used a highly focused and tailored approach to searching the literature, in which we searched only two databases that were anticipated to be more relevant.                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Extract the relevant information and evaluate the validity and certainty of the evidence**                                                                                                                                                                       | We followed the principles of the ROBIS [@whiting2016robis], a tool for assessing the risk of bias in systematic reviews, to critically evaluate the validity of the included evidence and followed the principle of the GRADE approach to assess the certainty of evidence [@guyatt2025core]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Synthesise and summarise the evidence**: Incorporating the GRADE assessment results, we summarised the evidence as follows in relation to the key questions.                                                                                                     | *‘There is some limited research evidence regarding the implications of policies that restrict the use of outdoor spaces for advertising alcohol and gambling. We found no research evidence regarding policies to restrict advertising for payday loans.*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                                                                                    | *Limited evidence suggests that implementing restrictions on alcohol marketing in outdoor places may reduce the awareness of alcohol advertising in adults, whilst it is uncertain if restricting or banning alcohol advertising could reduce alcohol consumption in adults and adolescents. There is consistent evidence on the causal relationship between exposure to advertising of gambling commodities and positive attitudes towards gambling, intentions to gamble and increased gambling activity.’*                                                                                                                                                                                                                                                                                                                             |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+:::
+
+## Section summary
+
+The ARC-GM has developed a rapid evidence synthesis (RES) approach. The RES approach draws on evidence synthesis methods and the GRADE Evidence to Decision framework to provide rapid assessments of existing evidence and its relevance to specific regional decision problems.
+
+The ARC-GM regards RES as a suitable alternative to full evidence synthesis in certain situations. RES can serve regional decision-makers who need a summary of the best available evidence to support timely decision-making on innovation adoption (or de-implementation). However, it is not always appropriate, feasible or necessary to conduct a RES.
+
+## Tasks to complete
+
+☐ Decide whether a RES is appropriate and feasible for the question you want to answer
+
+☐ Collaborate with your partners, if applicable
