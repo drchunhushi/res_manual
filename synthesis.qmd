@@ -56,9 +56,9 @@ Narrative methods were used to summarise the data extracted, capturing the follo
 
 These summaries of findings can also highlight the methodological limitations of the evidence being presented, as identified in the risk of bias assessment, and also present the level of certainty resulting from the [GRADE]{#grade title="The GRADE framework, which stands for Grading of Recommendations, Assessment, Development, and Evaluations, is globally adopted framework for evaluating the certainty of the conclusions drawn from a body of research evidence. It is widely used by both guideline developers and systematic reviewers" style="color: magenta"} assessments. Incorporating the assessment of the certainty of evidence can help gauge how likely it is that the presented results are close to the truth.
 
-The above example synthesis, along with its related GRADE assessment results and the judgement on the relevance of the evidence to the regional context, results in the summary in @fig5.
+The above example synthesis, along with its related GRADE assessment results and the judgement on the relevance of the evidence to the regional context, results in the summary in @fig-5.
 
-![Figure 5. An example of quantitative synthesis from the RES Restricting advertising in public spaces](images/Picture5.png){#fig5}
+![An example of quantitative synthesis from the RES Restricting advertising in public spaces](images/Picture5.png){#fig-5}
 
 ## Presenting a summary of the RES evidence
 
