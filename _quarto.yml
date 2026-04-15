@@ -17,8 +17,10 @@ book:
 
 bibliography: references.bib
 
+embed-resources: true
+
 format:
-  html:
+  closeread-html:
     theme:
       - cosmo
       - brand
