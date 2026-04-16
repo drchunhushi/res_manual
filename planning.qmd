@@ -43,8 +43,10 @@ After receiving the completed form, we meet with the decision-makers to review t
 
 These initial discussions focus on gathering more information on the motivating decision problem and key questions that they would like to answer via the RES. These also provide opportunities to clarify what the RES can and cannot do, so as to help manage the expectations of commissioners.
 
+To support a productive meeting with decision-makers, consider the tips below.
+
 ::: {.callout-tip collapse="true"}
-#### Tips (click to expand): how to run a productive meeting with decision-makers
+#### Tips (click to expand)
 
 **Before the meeting**
 
