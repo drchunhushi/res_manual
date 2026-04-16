@@ -62,17 +62,18 @@ The above example synthesis, along with its related GRADE assessment results and
 
 ## Presenting a summary of the RES evidence
 
-A RES can present a brief summary of the evidence, like the ‘abstract’ of a systematic review, even when little or no (useful) evidence is identified. Where there are [**multiple RES questions**]{.underline}, the summary can be at a high level, addressing all RES questions in a more concise format (@nte-5).
+A RES can present a brief summary of the evidence, like the ‘abstract’ of a systematic review, even when little or no (useful) evidence is identified. Where there are [**multiple RES questions**]{.underline}, the summary can be at a high level, addressing all RES questions in a more concise format. See the example below.
 
-The Cochrane has a very useful [guidance](https://training.cochrane.org/system/files/uploads/protected_file/GUIDAN~1.PDF#page=8) on writing a plain language summary along with their [template](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.cochrane.org%2Fauthors%2Fhandbooks-and-manuals%2Fhandbook%2Fcurrent%2Ftemplate-writing-cochrane-plain-language-summary.docx&wdOrigin=BROWSELINK).
 
-::: {#nte-5 .callout-important}
-## Example of evidence summary in the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf){#nte-5}
+::: {.callout-important}
+## Example of evidence summary in the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf)
 
 There is some **limited** research evidence regarding the implications of policies that restrict the use of outdoor spaces for advertising alcohol and gambling. We found no research evidence regarding policies to restrict advertising for payday loans.
 
 **Limited** evidence suggests that implementing restrictions on alcohol marketing in outdoor places may reduce the awareness of alcohol advertising in adults, whilst it is **uncertain** if restricting or banning alcohol advertising could reduce alcohol consumption in adults and adolescents. There is **consistent evidence** on the causal relationship between exposure to advertising of gambling commodities and positive attitudes towards gambling, intentions to gamble and increased gambling activity.
 :::
+
+The Cochrane has a very useful [guidance](https://training.cochrane.org/system/files/uploads/protected_file/GUIDAN~1.PDF#page=8) on writing a plain language summary along with their [template](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.cochrane.org%2Fauthors%2Fhandbooks-and-manuals%2Fhandbook%2Fcurrent%2Ftemplate-writing-cochrane-plain-language-summary.docx&wdOrigin=BROWSELINK).
 
 ## Producing accessible RES reports for knowledge mobilisation
 
@@ -86,7 +87,7 @@ The target audience for a RES is normally policy- or decision-makers who are fre
 -   Using visual elements to complement text, such as tables and figures;
     -   Using an easy-to-follow layout with subheadings, bullet points, and a consistent style.
 
-**Concise reporting**: A recommended practice is to keep the summary of the main findings a RES within 1 to 2 pages, in order to efficiently communicate the questions and answers upfront. This summary is followed by the full report, which can be 10 to 20 pages in length as needed. See the examples in @nte-5.
+**Concise reporting**: A recommended practice is to keep the summary of the main findings a RES within 1 to 2 pages, in order to efficiently communicate the questions and answers upfront. This summary is followed by the full report, which can be 10 to 20 pages in length as needed. See the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf) as an example.
 
 **Objective tone**: A RES presents evidence that helps decision-makers make informed choices about adopting and implementing innovations. The report should be written in an objective tone, focusing solely on the evidence itself. Our practice within the ARC-GM RES team is to refrain from making recommendations about whether to adopt or reject an innovation or intervention because we acknowledge that research evidence is only one of several inputs that inform decision-making.
 
