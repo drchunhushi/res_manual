@@ -4,7 +4,7 @@ project:
 book:
   title: "Rapid Evidence Synthesis for Knowledge Mobilisation: A Practical User Guide"
   author: "NIHR Applied Research Collaboration Greater Manchester (ARC-GM)"
-  date: "19/03/2026"
+  date: "2026-04-16"
   chapters:
     - index.qmd
     - context.qmd
