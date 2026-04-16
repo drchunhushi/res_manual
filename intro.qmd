@@ -111,7 +111,7 @@ Rapid reviews have several core features that make them faster and more streamli
 
     -   reviewers conducting an informal critical appraisal and quality assessment
 
-### What are the key limitations in the context of knowledge mobilisation?
+**What are the key limitations in the context of knowledge mobilisation?**
 
 Even with these modifications, rapid reviews can still take months to deliver.
 :::
