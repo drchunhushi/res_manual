@@ -146,10 +146,10 @@ Unlike the formal GRADE process used for systematic reviews, the rapid GRADE app
 
 When assessing each factor, it is recommended to apply the same GRADE criteria and principles wherever possible, but the use of a rapid approach means that you can highlight the key issues contributing to uncertainty, without formally tabulating the assessment results of all factors.
 
-As illustrated in @nte-4, the GRADE assessment in the RES [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf) highlights the main areas causing uncertainties, rather than explicitly documenting assessment across all GRADE factors.
+As illustrated the example below, the GRADE assessment in the RES [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf) highlights the main areas causing uncertainties, rather than explicitly documenting assessment across all GRADE factors.
 
-::: {#nte-4 .callout-important}
-## Example of commentary GRADE assessment in the RES [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf){#nte-4}
+::: {.callout-important}
+## Example of commentary GRADE assessment in the RES [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf)
 
 … the review authors largely rated the included studies as **moderate or good quality**. The evidence **consistently** suggested that exposure to alcohol advertising increases the likelihood of adolescents starting to drink alcohol, and increased consumption if they already drink alcohol. We judge the evidence to be of **low certainty** given it is **indirectly relevant** to this RES.
 :::
@@ -164,7 +164,7 @@ In our practice within the ARC-GM RES team, we often consider the NHS context bu
 
 In systematic reviews, it is common practice to use a structured critical appraisal form to guide and document the appraisal process. Systematic reviews typically require detailed documentation of the results of the critical appraisal process, including the specific considerations used to assess each source of bias and the presentation of assessment results in tables and/or figures.
 
-By contrast, a RES adopts a more proportionate approach. Rather than documenting critical appraisal methods and results in a highly detailed and structured format, a RES briefly mentions the methods in the **Methods** section, and summarises the key study limitations alongside the RES findings (see @nte-4). Retrieving and capturing extensive information to justify assessments is generally not necessary and may reduce the readability of a RES for decision-makers.
+By contrast, a RES adopts a more proportionate approach. Rather than documenting critical appraisal methods and results in a highly detailed and structured format, a RES briefly mentions the methods in the **Methods** section, and summarises the key study limitations alongside the RES findings (see the example above). Retrieving and capturing extensive information to justify assessments is generally not necessary and may reduce the readability of a RES for decision-makers.
 
 ::: {.callout-caution collapse="true"}
 ## Further online resources (click to expand)
