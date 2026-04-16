@@ -52,7 +52,7 @@ For a RES, a streamlined ‘mapping—prioritising—extracting—summarising’
 
 <!-- -->
 
--   **Summarising**: See **Section 5** for further detail on evidence synthesis approaches. Often, multiple studies or reviews are identified for each RES question. It is impractical or not helpful to present a detailed narrative summary of the above information for every study. Thus, RES synthesis can prioritise the most comprehensive, high-quality and recent research, beginning with existing systematic reviews where available. Additional studies can then be assessed to determine whether they add new insights or present conflicting findings. This approach supports the development of **overarching conclusions** drawn across all included evidence for each question.
+-   **Summarising**: See **next page** for further detail on evidence synthesis approaches. Often, multiple studies or reviews are identified for each RES question. It is impractical or not helpful to present a detailed narrative summary of the above information for every study. Thus, RES synthesis can prioritise the most comprehensive, high-quality and recent research, beginning with existing systematic reviews where available. Additional studies can then be assessed to determine whether they add new insights or present conflicting findings. This approach supports the development of **overarching conclusions** drawn across all included evidence for each question.
 
 ## Critical appraisal: how-to steps
 
@@ -148,7 +148,7 @@ When assessing each factor, it is recommended to apply the same GRADE criteria a
 
 As illustrated in @nte-4, the GRADE assessment in the RES [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf) highlights the main areas causing uncertainties, rather than explicitly documenting assessment across all GRADE factors.
 
-::: {.callout-important}
+::: {#nte-4 .callout-important}
 ## Example of commentary GRADE assessment in the RES [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf){#nte-4}
 
 … the review authors largely rated the included studies as **moderate or good quality**. The evidence **consistently** suggested that exposure to alcohol advertising increases the likelihood of adolescents starting to drink alcohol, and increased consumption if they already drink alcohol. We judge the evidence to be of **low certainty** given it is **indirectly relevant** to this RES.
