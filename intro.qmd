@@ -297,7 +297,7 @@ We have produced RES for a range of innovations, and all are free to access on o
 
 Below we illustrate the RES process using the example of [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf).
 
-::: {callout-important collapse="true"}
+::: {.callout-important collapse="true"}
 ## Examples (click to expand)
 
 **Context**
