@@ -41,15 +41,15 @@ The [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM RES outdo
 
 Narrative methods were used to summarise the data extracted, capturing the following key information:
 
-1.  The type and quantity of evidence:
+1.  **The type and quantity of evidence**:
 
     In this example, four primary studies were included in the Cochrane Review, of which one was a small RCT with 80 male student participants from the Netherlands, and the others were interrupted time series studies that were conducted among general population in Canada.
 
-2.  Effect sizes, including average effect sizes and the confidence intervals, or numerical counts of studies that favour an innovation or intervention
+2.  **Effect sizes**, including average effect sizes and the confidence intervals, or numerical counts of studies that favour an innovation or intervention
 
     In this example, given the certainty of evidence was very low (meaning it is unclear whether the interventions resulted in the effects as reported), the RES did not present the details of effect sizes for brevity.
 
-3.  The direction of effect sizes
+3.  **The direction of effect sizes**
 
     In this example, the meaning and direction of the effect sizes were largely interpreted based on the GRADE assessment results. The very low certainty evidence means it is uncertain whether restricting or banning alcohol advertising reduces alcohol consumption in adults and adolescents.
 :::
