@@ -49,7 +49,7 @@ The section below outlines key guidance on how to construct a search strategy an
 ::: cr-section
 Scroll down to learn key elements to consider when building a search strategy
 
-![](images/Picture2.png){#cr-figure2 width="245" height="500"}
+![](images/Picture2.png){#cr-figure2 width="300" height="550"}
 
 @cr-figure2
 
