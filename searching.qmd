@@ -19,6 +19,9 @@ By the end of this section, you should:
 
 -   Understand the flexible approach to searching for evidence for a RES
 
+For readers who would like an introduction to the literature search and study selection process, please watch the video below.
+{{< video https://www.youtube.com/watch?v=pMgyZYunjdU >}}
+
 ::: callout-warning
 This section does not cover the practical know-how, step-by-step methods, or hands-on skills required to perform literature searches. Searching the literature effectively requires a certain level of skill and experience. Although beginners can undertake searches themselves, it is recommended to seek guidance and support from an experienced librarian wherever possible.
 
@@ -109,9 +112,6 @@ In cases where the initial searches yield little or no evidence, or even outdate
 
 For a RES, study selection is often performed by a single reviewer to speed up its process, although consultation with a second reviewer is often undertaken. We often use the online tool [Rayyan](https://www.rayyan.ai/) to facilitate the study selection process.
 
-See the video to learn the key principles to consider when searching and selecting research for RES.
-
-{{< video https://www.youtube.com/watch?v=pMgyZYunjdU >}}
 
 ## Section summary
 
