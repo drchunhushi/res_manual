@@ -58,7 +58,7 @@ For a RES, a streamlined ‘mapping—prioritising—extracting—summarising’
 
 First, it is useful to check whether the included research has existing critical appraisal. When a RES includes a systematic review, you can draw on the review's critical appraisal of its included studies if this is reported and considered fit for purpose. When the appraisal result is not reported or inappropriate, critical appraisal should then be performed as part of the RES. Below are some suggested considerations for critical appraisal:
 
-### Step 1. Understanding what needs to be appraised
+### Understanding what needs to be appraised
 
 In evidence synthesis, critical appraisal can refer to two related but distinct elements of evidence, and it is important to keep them separate.
 
@@ -76,7 +76,7 @@ Accordingly, we normally focus on two general issues when deciding what needs to
 
 The recommended practice is to begin with appraising the validity of the included studies, followed by assessing our confidence in the evidence synthesised from the studies.
 
-### Step 2. Choose the appropriate critical appraisal tools
+### Choose the appropriate critical appraisal tools
 
 #### *Assessing the validity of research results* 
 
@@ -110,9 +110,9 @@ There is a range of tools available for use to appraise the validity of the rese
 
 When a RES includes existing systematic reviews, these can be appraised using ROBIS. In addition to the domains covered in ROBIS, it is often important to consider how old a review is (i.e., the date its searches were performed) to judge whether the evidence is sufficiently contemporary.
 
-When a RES includes primary research, select a risk of bias tool appropriate to the study design, for example, the [ROBUST-RCT](https://www.bmj.com/content/388/bmj-2024-081199) for RCTs. @nte-3 presents an example of a critical appraisal that was performed using ROBINS-I for non-randomised studies of interventions.
+When a RES includes primary research, select a risk of bias tool appropriate to the study design, for example, the [ROBUST-RCT](https://www.bmj.com/content/388/bmj-2024-081199) for RCTs. The example below illustrates a critical appraisal undertaken using ROBINS-I for non-randomised studies of interventions.
 
-::: {#nte-3 .callout-important}
+::: {.callout-important}
 ## Example of commenting on methodological limitations in the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf)
 
 The evidence ... has **some uncertainties** due to the methodological limitations in both studies: (1) the use of self-reported awareness measures is subject to recall bias, and (2) they did not collect data on other factors that may explain or confound changes in awareness between the repeated surveys.
@@ -148,8 +148,8 @@ When assessing each factor, it is recommended to apply the same GRADE criteria a
 
 As illustrated in @nte-4, the GRADE assessment in the RES [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf) highlights the main areas causing uncertainties, rather than explicitly documenting assessment across all GRADE factors.
 
-::: {#nte-4 .callout-important}
-## Example of commentary GRADE assessment in the RES [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf)
+::: {.callout-important}
+## Example of commentary GRADE assessment in the RES [Restricting advertising in public spaces](https://arc-gm.nihr.ac.uk/media/Resources/ARC/Evaluation/RES/Implementing%20policies%20that%20restrict%20the%20use%20of%20outdoor%20spaces%20for%20advertising%20harmful%20commodities/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities%20revised.pdf){#nte-4}
 
 … the review authors largely rated the included studies as **moderate or good quality**. The evidence **consistently** suggested that exposure to alcohol advertising increases the likelihood of adolescents starting to drink alcohol, and increased consumption if they already drink alcohol. We judge the evidence to be of **low certainty** given it is **indirectly relevant** to this RES.
 :::
@@ -160,7 +160,7 @@ To facilitate knowledge mobisation activities, it is important to judge whether 
 
 In our practice within the ARC-GM RES team, we often consider the NHS context but may also consider more locally relevant factors, such as whether an assessment was conducted in a highly urbanised or rural area, and whether the study population reflects that of a specific region as well as the UK more broadly.
 
-### Step 3. Document critical appraisal methods and results
+### Document critical appraisal methods and results
 
 In systematic reviews, it is common practice to use a structured critical appraisal form to guide and document the appraisal process. Systematic reviews typically require detailed documentation of the results of the critical appraisal process, including the specific considerations used to assess each source of bias and the presentation of assessment results in tables and/or figures.
 
