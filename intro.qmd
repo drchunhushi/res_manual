@@ -46,6 +46,26 @@ To help make informed adoption decisions, decision-makers need to find, bring to
 From ‘***Evidence synthesis for policy: a statement of principles**’ by the Royal Society and the Academy of Medical Sciences*.
 :::
 
+If you would like to learn the basics of evidence synthesis, please watch the introductory video:
+
+{{< video https://www.youtube.com/watch?v=egJlW4vkb1Y >}}
+
+::: {.callout-caution}
+## Further online resources
+
+### Cochrane Evidence Essentials
+
+This is an introduction to evidence synthesis, clinical trials and the application of evidence. It is designed for the public, policy makers and members of healthcare teams.
+
+Click [here](https://www.cochrane.org/learn/courses-and-resources/evidence-essentials) to access the resources. This resource is free to use with a [Cochrane account](https://account.cochrane.org/) (free to sign up). 
+
+### NIHR Knowledge Mobilisation resources
+
+NIHR brings together a list of useful resources from Applied Research Collaborations and other NIHR organisations on implementation, knowledge mobilisation and impact. These resources are for people who are new to the field and want to find out more.
+
+Click [here](https://arc-w.nihr.ac.uk/training-and-capacity-building/arc-west-courses/an-nihr-arc-guide-to-resources-about-implementation-knowledge-mobilisation-and-impact/course-page/) to access the resources.
+:::
+
 Systematic reviews and rapid reviews are two commonly used evidence synthesis approaches. They share the main steps outlined below (@nte-1).
 
 ::: {#nte-1 .callout-note}
@@ -117,26 +137,6 @@ Even with these modifications, rapid reviews can still take months to deliver.
 :::
 
 Systematic reviews (and rapid versions of them) can take a long time to complete. This can delay the use of research findings in decision-making when people need them. In health and care services, decision-makers often need evidence-based insights within weeks—not months or years—to inform their decisions about scaling up (or scaling down) innovations. When suitable rapid evidence synthesis methods are not available, research evidence may be overlooked in decision- and policy-making. This situation led us to develop our rapid evidence synthesis approach. While it is not perfect, it helps ensure that existing research evidence is considered as part of the decision-making.
-
-If you would like to learn the basics of evidence synthesis, please watch the introductory video:
-
-{{< video https://www.youtube.com/watch?v=egJlW4vkb1Y >}}
-
-::: {.callout-caution}
-## Further online resources (click to expand)
-
-### Cochrane Evidence Essentials
-
-This is an introduction to evidence synthesis, clinical trials and the application of evidence. It is designed for the public, policy makers and members of healthcare teams.
-
-Click [here](https://www.cochrane.org/learn/courses-and-resources/evidence-essentials) to access the resources. This resource is free to use with a [Cochrane account](https://account.cochrane.org/) (free to sign up). 
-
-### NIHR Knowledge Mobilisation resources
-
-NIHR brings together a list of useful resources from Applied Research Collaborations and other NIHR organisations on implementation, knowledge mobilisation and impact. These resources are for people who are new to the field and want to find out more.
-
-Click [here](https://arc-w.nihr.ac.uk/training-and-capacity-building/arc-west-courses/an-nihr-arc-guide-to-resources-about-implementation-knowledge-mobilisation-and-impact/course-page/) to access the resources.
-:::
 
 ## The ARC-GM Rapid Evidence Synthesis (RES) process
 
