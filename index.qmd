@@ -22,4 +22,8 @@ Dr Sonya Rafiq, University of Manchester;
 Dr Hannah Long, University of British Columbia; 
 Gill Rizzello, University of Manchester; 
 Mike Spence, University of Manchester; 
+Dr Lucy O'Malley, University of Manchester;
 Prof Nicky Cullum, University of Manchester.
+
+## Suggested Citation
+Shi, C., Dumville, J., Rafiq, S., Long, H., Rizzello, G., Spence, M., O'Malley, L., Cullum, N. (2026) Rapid Evidence Synthesis for Knowledge Mobilisation: A Practical User Guide. NIHR ARC Greater Manchester: University of Manchester.
