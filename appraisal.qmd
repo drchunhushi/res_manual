@@ -30,7 +30,7 @@ In systematic reviews, reviewers typically use a structured data extraction form
 
 By contrast, a RES does not always require a fully structured data extraction process because its synthesis is more like the representation of available research findings alongside critical appraisal, rather than emphasising statistical analysis and its extraction can be easily integrated within the synthesis process.
 
-That said, using a structured data extraction form can still be helpful, particularly fthose who are new to RES methods. See the [data extraction form template (xlsx)](forms/Data extraction form template (quant).xlsx) (click to download) as an example for quantitative research.
+That said, using a structured data extraction form can still be helpful, particularly for those who are new to RES methods. See the [data extraction form template (xlsx)](forms/Data extraction form template (quant).xlsx) (click to download) as an example for quantitative research.
 
 For a RES, a streamlined ‘mapping—prioritising—extracting—summarising’ approach can be used:
 
@@ -55,6 +55,12 @@ For a RES, a streamlined ‘mapping—prioritising—extracting—summarising’
 -   **Summarising**: See **next page** for further detail on evidence synthesis approaches. Often, multiple studies or reviews are identified for each RES question. It is impractical or not helpful to present a detailed narrative summary of the above information for every study. Thus, RES synthesis can prioritise the most comprehensive, high-quality and recent research, beginning with existing systematic reviews where available. Additional studies can then be assessed to determine whether they add new insights or present conflicting findings. This approach supports the development of **overarching conclusions** drawn across all included evidence for each question.
 
 ## Critical appraisal: how-to steps
+
+::: {.callout-note}
+## Further online resources
+
+Here are links to a series of articles in the *BMJ* that explain [how to read](https://www.bmj.com/about-bmj/resources-readers/publications/how-read-paper) and interpret different kinds of research papers, including systematic reviews and primary studies. They are written in plain language and introduce key concepts to consider when critically appraising research.
+:::
 
 First, it is useful to check whether the included research has existing critical appraisal. When a RES includes a systematic review, you can draw on the review's critical appraisal of its included studies if this is reported and considered fit for purpose. When the appraisal result is not reported or inappropriate, critical appraisal should then be performed as part of the RES. Below are some suggested considerations for critical appraisal:
 
@@ -165,12 +171,6 @@ In our practice within the ARC-GM RES team, we often consider the NHS context bu
 In systematic reviews, it is common practice to use a structured critical appraisal form to guide and document the appraisal process. Systematic reviews typically require detailed documentation of the results of the critical appraisal process, including the specific considerations used to assess each source of bias and the presentation of assessment results in tables and/or figures.
 
 By contrast, a RES adopts a more proportionate approach. Rather than documenting critical appraisal methods and results in a highly detailed and structured format, a RES briefly mentions the methods in the **Methods** section, and summarises the key study limitations alongside the RES findings (see the example above). Retrieving and capturing extensive information to justify assessments is generally not necessary and may reduce the readability of a RES for decision-makers.
-
-::: {.callout-caution collapse="true"}
-## Further online resources (click to expand)
-
-Here are links to a series of articles in the *BMJ* that explain [how to read](https://www.bmj.com/about-bmj/resources-readers/publications/how-read-paper) and interpret different kinds of research papers, including systematic reviews and primary studies. They are written in plain language and introduce key concepts to consider when critically appraising research.
-:::
 
 ## Section summary
 
