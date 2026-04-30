@@ -197,7 +197,9 @@ Evidence for a RES may come from existing systematic reviews, relevant primary s
 The ARC-GM RES approach consists of several steps (see below), with further methodological detail available in our [journal publication](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-022-02106-z). The RES steps are not necessarily linear but iterative. The process is designed to be flexible and pragmatic, drawing on decision-makers, Patient and Public Involvement and Engagement (PPIE) and/or other partner input for co-design. You, as the reviewers, are allowed to refine the methods used at each stage, for example, by using exploratory methods in specific review activities.
 
 ::: panel-tabset
-## Step 1. Describe the innovation and its purpose
+## Step 1 
+
+**Describe the innovation and its purpose**
 
 Begin by clearly defining the innovation:
 
@@ -209,7 +211,9 @@ Often, it is needed to identify relevant alternatives by considering:
 
 -   What competing alternatives are available that could be used instead (this will include what is being used currently)?
 
-## Step 2. Formulate RES questions based on the key characteristics and aims of the innovation
+## Step 2
+
+**Formulate RES questions based on the key characteristics and aims of the innovation**
 
 A single RES may address multiple types of questions, of which one type of questions often focuses on the effectiveness of an innovation, i.e., whether it ‘works’ to improve a condition or outcome.
 
@@ -278,11 +282,15 @@ For other types of questions, there are other frameworks available for use (see 
 
 When specifying RES questions, it may be helpful to start with a narrow and focused scope to maximise the relevance of the evidence. You can expand the scope when evidence is sparse, for example, by considering broader categories of innovations.
 
-## Step 3. Consider the study design that provides the most valid and reliable evidence for each question
+## Step 3
+
+**Consider the study design that provides the most valid and reliable evidence for each question**
 
 See @tbl-2. For questions related to innovation effectiveness, priority can be given to systematic reviews that include randomised controlled trials (RCTs). If relevant reviews are not available, outdated, or limited in scope, you can consider relevant individual studies that have been published recently. In this case, you may consider adjusting the eligibility criteria to encompass a broader range of research designs as needed.
 
-## Step 4. Use a focused and tailored approach to searching the literature
+## Step 4
+
+**Use a focused and tailored approach to searching the literature**
 
 Literature searches should be planned and conducted carefully, and where possible, you should look for advice from an expert or experienced librarian.
 
@@ -290,13 +298,17 @@ Key sources of evidence you can use to search for the literature include databas
 
 It is required to stringently screen search results based on pre-established eligibility criteria set out in the RES plan (i.e., ‘rules to apply’ when deciding whether to include or exclude articles).
 
-## Step 5. Extract relevant information and assess evidence validity and certainty
+## Step 5
+
+**Extract relevant information and assess evidence validity and certainty**
 
 Relevant information needs to be taken from the selected materials, including key findings and any assessments of validity and certainty if such assessment results are available.
 
 Where existing evidence has not previously had its validity or certainty assessed, you may perform the relevant assessments as needed using existing critical appraisal tools such as the Cochrane tool for assessing the risk of bias in RCTs [@higgins2019assessing] and the ROBINS-I tool for non-RCT evidence [@sterne2016robins]. The GRADE approach is widely used for assessing the certainty of a body of evidence [@guyatt2025core]. These judgements provide a sense of how confident we can be in the research findings. Additionally, at this stage it is vital for you to consider the relevance of the evidence to the local context in terms of service model, comparators and populations.
 
-## Step 6. Synthesising and summarising the evidence to answer the key questions
+## Step 6
+
+**Synthesising and summarising the evidence to answer the key questions**
 
 It is strongly recommended to present a clear summary of findings, including a judgement of how confident we can be in them. This is to explain the nature of any uncertainty in the evidence, and how relevant it is to the key questions.
 
