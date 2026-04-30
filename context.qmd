@@ -68,7 +68,7 @@ These boxes provide links to freely available learning resources.
 They are often collapsed by default; click each box title to expand and read more.
 :::
 
-After reading each section, you may find it helpful to complete the tasks listed at the end to consolidate your learning.
+After reading each section, you may find it helpful to complete the tasks listed at the end to consolidate your learning. The **Tasks to complete** section is only relevant if you are using this guide while conducting a rapid evidence synthesis.
 
 Throughout this guide, we include some Word- or Excel-based forms that you can use or adapt for use in your RES activities. These forms are downloadable.
 
@@ -85,23 +85,3 @@ The targeted users of this guide include:
 -   Research or knowledge mobilisation teams that want to produce RES for whichever commissioners delivering health and social care.
 
 Readers are expected to know the basics of evidence synthesis. However, prior experience in **conducting** evidence synthesis is not required.
-
-If you would like to learn the basics of evidence synthesis, please watch the introductory video:
-
-{{< video https://www.youtube.com/watch?v=egJlW4vkb1Y >}}
-
-::: {.callout-caution collapse="true"}
-## Further online resources (click to expand)
-
-### Cochrane Evidence Essentials
-
-This is an introduction to evidence synthesis, clinical trials and the application of evidence. It is designed for the public, policy makers and members of healthcare teams.
-
-Click [here](https://www.cochrane.org/learn/courses-and-resources/evidence-essentials) to access the resources. This resource is free to use with a [Cochrane account](https://account.cochrane.org/) (free to sign up). 
-
-### NIHR Knowledge Mobilisation resources
-
-NIHR brings together a list of useful resources from Applied Research Collaborations and other NIHR organisations on implementation, knowledge mobilisation and impact. These resources are for people who are new to the field and want to find out more.
-
-Click [here](https://arc-w.nihr.ac.uk/training-and-capacity-building/arc-west-courses/an-nihr-arc-guide-to-resources-about-implementation-knowledge-mobilisation-and-impact/course-page/) to access the resources.
-:::
