@@ -162,7 +162,7 @@ As illustrated the example below, the GRADE assessment in the RES [Restricting a
 
 #### *Further consideration of evidence relevance in a RES* 
 
-To facilitate knowledge mobisation activities, it is important to judge whether the RES evidence is of direct or indirect relevance to the specific innovations and populations of interest, and local or regional health and care systems.
+To facilitate knowledge mobilisation activities, it is important to judge whether the RES evidence is of direct or indirect relevance to the specific innovations and populations of interest, and local or regional health and care systems.
 
 In our practice within the ARC-GM RES team, we often consider the NHS context but may also consider more locally relevant factors, such as whether an assessment was conducted in a highly urbanised or rural area, and whether the study population reflects that of a specific region as well as the UK more broadly.
 
