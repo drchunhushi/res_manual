@@ -286,36 +286,36 @@ When specifying RES questions, it may be helpful to start with a narrow, focused
 
 **Consider the study design that provides the most valid and reliable evidence for each question**
 
-See @tbl-2. For questions related to innovation effectiveness, priority can be given to systematic reviews that include randomised controlled trials (RCTs). If relevant reviews are not available, outdated, or limited in scope, you can consider relevant individual studies that have been published recently. In this case, you may consider adjusting the eligibility criteria to encompass a broader range of research designs as needed.
+See @tbl-2. For questions related to innovation effectiveness, priority can be given to systematic reviews of randomised controlled trials (RCTs). If relevant systematic reviews are not available, outdated, or limited in scope, you can consider relevant individual studies that have been published since the last systematic review. In this case, you may consider adjusting the eligibility criteria to encompass a broader range of research designs as needed.
 
 ## Step 4
 
 **Use a focused and tailored approach to searching the literature**
 
-Literature searches should be planned and conducted carefully, and where possible, you should look for advice from an expert or experienced librarian.
+Literature searches should be planned and conducted carefully, and where possible, you should seek advice from an expert or experienced librarian.
 
-Key sources of evidence you can use to search for the literature include databases such as the Cochrane Library and Medline. It is often helpful to consider additional resources like the National Institute for Health and Care Excellence (NICE) website when relevant.
+Key sources of evidence you can use to search for the literature include databases such as the Cochrane Library and Medline. It is often helpful to consider additional resources like the National Institute for Health and Care Excellence (NICE) website when relevant (e.g., for guidance and guidelines).
 
-It is required to stringently screen search results based on pre-established eligibility criteria set out in the RES plan (i.e., ‘rules to apply’ when deciding whether to include or exclude articles).
+The next step is to carefully screen search results based on the pre-established eligibility criteria set out in the RES plan (i.e., ‘rules to apply’ when deciding whether to include or exclude articles).
 
 ## Step 5
 
-**Extract relevant information and assess evidence validity and certainty**
+**Extract relevant information from the eligible studies and assess the validity and certainty of the evidence**
 
-Relevant information needs to be taken from the selected materials, including key findings and any assessments of validity and certainty if such assessment results are available.
+Relevant information needs to be taken from the selected studies, including key findings and any assessments of validity and certainty if such assessment results are already available (typically in an existing systematic review).
 
-Where existing evidence has not previously had its validity or certainty assessed, you may perform the relevant assessments as needed using existing critical appraisal tools such as the Cochrane tool for assessing the risk of bias in RCTs [@higgins2019assessing] and the ROBINS-I tool for non-RCT evidence [@sterne2016robins]. The GRADE approach is widely used for assessing the certainty of a body of evidence [@guyatt2025core]. These judgements provide a sense of how confident we can be in the research findings. Additionally, at this stage it is vital for you to consider the relevance of the evidence to the local context in terms of service model, comparators and populations.
+Where existing evidence has not previously had its validity or certainty assessed, you need to perform the relevant assessments using existing critical appraisal tools such as the Cochrane tool for assessing the risk of bias in RCTs [@higgins2019assessing] and the ROBINS-I tool for non-RCT evidence [@sterne2016robins]. The GRADE approach is widely used for assessing the certainty of a body of evidence (as opposed to an individual study) [@guyatt2025core]. These judgements provide an essential sense of how confident we can be in the research findings (how trustworthy is this study result or body of evidence?). Additionally, at this stage it is vital to consider the relevance of the evidence to the local context in terms of service model, comparators and populations.
 
 ## Step 6
 
 **Synthesising and summarising the evidence to answer the key questions**
 
-It is strongly recommended to present a clear summary of findings, including a judgement of how confident we can be in them. This is to explain the nature of any uncertainty in the evidence, and how relevant it is to the key questions.
+It is essential to present a clear summary of the relevant research findings alongside a judgement of how confident we can be in them. This step is crucial to judging the nature of any uncertainty in the evidence, and how relevant the evidence is to the key questions.
 
-In addition to synthesising existing evidence, this stage may also involve identifying priorities for further evaluation (e.g., questions to be addressed in proof-of-value work or large-scale deployment), ideally in collaboration with partners.
+In addition to synthesising the existing evidence, this stage may also involve identifying priorities for further evaluation (e.g., questions to be addressed in proof-of-value work or large-scale deployment). Identifying priorities can be co-produced in collaboration with partners.
 :::
 
-We have produced RES for a range of innovations, and all are free to access on our website <https://arc-gm.nihr.ac.uk/rapid-evidence-synthesis>. Browsing a few reports may be a useful way to see what the RES process looks like in practice. This user guide draws on the following examples:
+We have produced RES for a broad range of innovations, and all are free to access on our website <https://arc-gm.nihr.ac.uk/rapid-evidence-synthesis>. Browsing a few reports may be a useful way to see what the RES process looks like in practice. This user guide draws on the following examples:
 
 -   [Restricting advertising in public spaces](#0)
 
