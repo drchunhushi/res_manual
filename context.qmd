@@ -6,13 +6,13 @@ Lord Darzi’s 2024 review of the NHS in England highlights a gradual decline in
 
 However, innovation only has an impact if it is effective and offers value for money. The Innovation Ecosystem Programme report reinforces this point and recommends robust evaluation before innovations are implemented or de-implemented [@roland2024innovation]. For health and care commissioning groups in England, such as NHS Integrated Care Boards, this creates a need for **timely and rapid evidence** to support decisions about adopting innovations. In practice, decision-makers often need answers to questions such as:
 
--   *Has this innovation, or planned change, been shown to make a positive difference to care and/or outcomes?*
+-   *Has research shown that this innovation, or planned change, makes a positive difference to care and/or outcomes?*
 
 -   *How certain is the research evidence?*
 
-As has long been recognised, *“the capacity to generate scientific evidence … has greatly exceeded the ability to apply it to public policy in anything but the most general way.“* Without effective mobilisation, much of the learning from research is missed. Timely, relevant, and accessible evidence is urgently required to inform actionable insights on adopting innovations.
+As has long been recognised, *"the capacity to generate scientific evidence … has greatly exceeded the ability to apply it to public policy in anything but the most general way."* [@law2010] Without effective mobilisation, much of the learning from research is missed. Timely, relevant, and accessible evidence is urgently required to inform actionable insights on adopting innovations.
 
-Knowledge mobilisation (KM) helps to close this gap. It supports the translation of research evidence into practical insights, facilitating the use of evidence in clinical practice and policymaking. Knowledge mobilisation brings “diverse communities together to share and create new knowledge in the context of its use to actively change something”. It emphasises the importance of making evidence timely, relevant, accessible, and actionable for decision-makers (Knowledge Mobilisation Alliance).
+Knowledge mobilisation (KM) helps to close this gap. It supports the translation of research evidence into practical insights, facilitating the use of evidence in clinical practice and policymaking. Knowledge mobilisation brings together diverse communities to share and co-produce knowledge, using it in practice to drive change. It emphasises the importance of making evidence timely, relevant, accessible, and actionable for decision-makers [@healthinnovationeast2026].
 
 To support knowledge mobilisation in the regional decision-making context, the NIHR-funded Applied Research Collaboration Greater Manchester (ARC-GM) has developed a framework for rapid evidence synthesis (RES) that delivers timely evidence summaries driven by the need for evidence [@norman2022rapid]. In this context, the purpose of RES is to summarise and mobilise research evidence in a clear and usable way for decision-makers who may not have the time or expertise to find, appraise and summarise evidence themselves.
 
@@ -32,7 +32,7 @@ The guide includes the following sections:
 
 -   Synthesising, presenting and communicating the evidence
 
-We recommend starting with the first section and then working through the guide in order. This is particularly important if you have limited previous experience of [evidence synthesis]{#es title="This is the systematic process of gathering information from various sources and disciplines to inform discussions and decisions on specific issues" style="color: magenta"}.
+We recommend starting with the first section and then working through the guide in order. This is particularly important if you have limited previous experience of evidence synthesis.
 
 Each section includes essential learning materials. In addition, there are further resources, practical tips, real‑world examples, and tools that are presented using the box types below.
 
