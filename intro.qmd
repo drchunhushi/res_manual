@@ -43,7 +43,7 @@ To help make informed adoption decisions, decision-makers need to find, bring to
 
 *‘***Evidence synthesis** *refers to the process of bringing together information from a range of sources and disciplines to inform debates and decisions on specific issues. Decision-making and public debate are best served if policymakers have access to the best current evidence on an issue. An accurate, concise and unbiased synthesis of the evidence is therefore one of the most valuable contributions the research community can offer policymakers.’*
 
-From ‘***Evidence synthesis for policy: a statement of principles**’ by the Royal Society and the Academy of Medical Sciences*.
+From *‘[**Evidence synthesis for policy: a statement of principles**](https://royalsociety.org/-/media/policy/projects/evidence-synthesis/evidence-synthesis-statement-principles.pdf)’ by the Royal Society and the Academy of Medical Sciences*
 :::
 
 If you would like to learn the basics of evidence synthesis, please watch the introductory video:
@@ -71,7 +71,7 @@ Systematic reviews and rapid reviews are two commonly used evidence synthesis ap
 ::: {#nte-1 .callout-note}
 • Clearly define the question that the review is asking of the existing research, including a clear definition and understanding the relevant innovation
 
-• Outline a protocol or plan for the review
+• Outline a review protocol or plan before the review starts
 
 • Search for potentially relevant research
 
@@ -117,7 +117,7 @@ Systematic reviews often follow exhaustive, comprehensive, and methodologically 
 
 **What is it?**
 
-Rapid review ‘*accelerates the process of conducting a traditional systematic review through streamlining or omitting specific methods to produce evidence for stakeholders in a resource-efficient manner*’ [@hamel2021defining].
+A rapid review ‘*accelerates the process of conducting a traditional systematic review through streamlining or omitting specific methods to produce evidence for stakeholders in a resource-efficient manner*’ [@hamel2021defining].
 
 **What are the key features?**
 
@@ -154,7 +154,7 @@ The RES approach can deliver an evidence summary in 2–8 weeks, depending on th
 
 ### *Transparency and robustness*
 
-The principles of the [GRADE Evidence to Decision framework](#0) are central to the RES approach, which makes the RES transparent, consistent and reproducible.
+The principles of the [GRADE Evidence to Decision framework](https://www.bmj.com/content/353/bmj.i2016) are central to the RES approach, which makes the RES transparent, consistent and reproducible.
 
 While not exhaustive, the RES ensures that uncertainties are clearly identified and acknowledged.
 
@@ -164,37 +164,37 @@ The RES approach considers how well the evidence identified is relevant—thus a
 
 ## Deciding when to conduct a RES instead of other types of evidence synthesis
 
-Although the RES approach can be faster than many other evidence synthesis methods, it still requires substantial time and resources and may not be the right option for every inquiry. Try to think over the questions below before deciding to use the RES approach to address an inquiry:
+Although the RES approach can be faster than many other evidence synthesis methods, it still requires substantial time and resources and may not be the right option for every enquiry. Try to think over the questions below before deciding to use the RES approach to address an enquiry:
 
 ::: {.callout-tip icon="false"}
 -   How suitable is it to use the RES approach, and is there a better (evidence synthesis) approach to take?
 
-    -   When choosing an approach, DO consider the chance of drawing the wrong conclusion. What is the tolerance for decision-makers of drawing the wrong conclusion because the review approach increases the risk of missing key research?
+    -   When choosing an approach, DO consider the implications of drawing the wrong conclusion. What is the tolerance of decision-makers of drawing the wrong conclusion because a rapid review has a greater risk of missing key research than a full systematic review?
 
--   How practical and feasible is it to complete a RES? Is there existing evidence base for this area of inquiry?
+-   How practical and feasible is it to complete a RES? Is there an existing evidence base for this area of enquiry?
 
--   How useful and impactful are the potential findings of a RES likely to be in relation to decisions to adopt innovations in local health and care systems?
+-   How useful and impactful are the potential findings of a RES likely to be for innovation adoption decisions in local health and care systems?
 :::
 
-Whilst a RES is often a good fit to address an inquiry for knowledge mobilisation, in some cases, it is not the best option. You need to carefully assess whether other evidence synthesis products, like systematic reviews, are more appropriate. We developed the [decision pathway](files/Decision pathway.docx) to help you choose which type of evidence synthesis is most appropriate to undertake.
+Whilst a RES is often a good fit to address an enquiry for knowledge mobilisation, in some cases, it is not the best option. You need to carefully assess whether other evidence synthesis products, like systematic reviews, are more appropriate. We developed the [decision pathway](files/Decision pathway.docx) to help you choose which type of evidence synthesis is most appropriate to undertake.
 
-RES is designed primarily for ***knowledge mobilisation***: it brings together and summarises what is already known in existing evidence and presents it in a form that specific audiences can use for decision-making. When the goal of an evidence inquiry is to fill an evidence gap, thus generating new knowledge, other types of evidence synthesis may be more suitable.
+RES is designed primarily for ***knowledge mobilisation***: it brings together and summarises what is already known in existing evidence and presents it in a form that specific audiences can use for decision-making. When the goal of an evidence enquiry is to fill an evidence gap, thus generating new knowledge, other types of evidence synthesis may be more suitable.
 
 Here is an example scenario where a RES is more suitable for *knowledge mobilisation* than other types of reviews.
 
 ::: callout-important
 ## Example
 
-The Greater Manchester Integrated Care Partnership (GM ICP) Population Health team wanted to develop regional policies to restrict the advertising of harmful commodities in public sector–owned spaces such as public transport. To support timely policy decisions, the team needed rapid access to research evidence on what restriction policies had already been implemented in other regions and the potential health and financial impacts of such restrictions.
+The Greater Manchester Integrated Care Partnership (GM ICP) Population Health team wanted to consider the possible impacts of a regional policy to restrict the advertising of harmful commodities in public sector–owned spaces such as on public transport. To support timely policy decisions, the team needed rapid access to research evidence on the restriction policies implemented elsewhere and the potential health and financial impacts of such restrictions.
 
-In this case, the motivation of this evidence inquiry was **not** to produce a comprehensive, exhaustive review to fill an evidence gap on the topic. Instead, the priority was to **mobilise** the relevant evidence already available and present it in an accessible and actionable form to help inform decision-making. Decision‑makers needed a concise synthesis that could be delivered within tight timelines, telling them what is known to support policy development. A RES was therefore the appropriate approach.
+In this case, the motivation of this evidence enquiry was **not** to produce a comprehensive, exhaustive review to fill an evidence gap on the topic. Instead, the priority was to **mobilise** the relevant evidence already available and present it in an accessible and actionable form to help inform decision-making. Decision‑makers needed rapid access to a concise evidence synthesis to support policy development. A RES was therefore an appropriate approach.
 :::
 
-Evidence for a RES may come from existing systematic reviews, relevant primary studies that have not yet been synthesised, and other credible sources such as national guidance. Even when systematic reviews already exist, a RES can add value by translating the evidence into a more accessible format, incorporating critical appraisal of the evidence, and assessing how well the evidence applies to the regional context so it can be acted on.
+Evidence for a RES may come from existing systematic reviews, relevant primary studies that have not yet been synthesised, and other credible sources such as national guidance. Even when systematic reviews already exist, a RES can add value by making the evidence more accessible, critically appraising the evidence, and assessing how well the evidence applies to the regional context.
 
 ## An overview of key steps when conducting a RES
 
-The ARC-GM RES approach consists of several steps (see below), with further methodological detail available in our [journal publication](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-022-02106-z). The RES steps are not necessarily linear but iterative. The process is designed to be flexible and pragmatic, drawing on decision-makers, Patient and Public Involvement and Engagement (PPIE) and/or other partner input for co-design. You, as the reviewers, are allowed to refine the methods used at each stage, for example, by using exploratory methods in specific review activities.
+The ARC-GM RES approach consists of several steps (see below), with further methodological detail available in our [journal publication](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-022-02106-z). The RES steps are iterative and not necessarily linear (unlike a more traditional systematic review). The process is designed to be flexible and pragmatic, drawing on decision-makers, Patient and Public Involvement and Engagement (PPIE) and/or other partners for co-design. The reviewers can refine the methods used at each stage, for example, by using AI tools to refine literature searches.
 
 ::: panel-tabset
 ## Step 1 
@@ -205,7 +205,7 @@ Begin by clearly defining the innovation:
 
 -   Is it a public health policy, a screening tool, a diagnostic or other test, a service, an organisational change, or something aimed at changing individual behaviours?
 
-Often, it is needed to identify relevant alternatives by considering:
+Often, it is necessary to identify relevant alternatives by considering:
 
 -   What alternatives to this innovation exist?
 
@@ -213,11 +213,11 @@ Often, it is needed to identify relevant alternatives by considering:
 
 ## Step 2
 
-**Formulate RES questions based on the key characteristics and aims of the innovation**
+**Formulate the RES question(s) based on the key characteristics and aims of the innovation**
 
-A single RES may address multiple types of questions, of which one type of questions often focuses on the effectiveness of an innovation, i.e., whether it ‘works’ to improve a condition or outcome.
+A single RES may address several different types of question, one of which might focus on the effectiveness of an innovation, i.e., whether it has a beneficial impact on a condition or outcome.
 
-It is important to consider using appropriate frameworks to facilitate the formulation of RES questions. PICO(S) is well suited for 'what works' questions, and it helps specify:
+It is important to consider using appropriate frameworks to facilitate the formulation of RES questions. PICO(S) is well suited to 'what works' questions, and it helps specify:
 
 -   Population
 
@@ -280,7 +280,7 @@ For other types of questions, there are other frameworks available for use (see 
 
 : Main frameworks used for facilitating the formulation of review questions {#tbl-1}
 
-When specifying RES questions, it may be helpful to start with a narrow and focused scope to maximise the relevance of the evidence. You can expand the scope when evidence is sparse, for example, by considering broader categories of innovations.
+When specifying RES questions, it may be helpful to start with a narrow, focused scope to maximise the relevance of the evidence. If little relevant research is found, the scope can then be expanded, for example, by considering broader categories of innovations.
 
 ## Step 3
 
