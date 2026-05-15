@@ -12,7 +12,7 @@ We hope that this guide equips you with the skills and understanding needed to s
 
 ## Contact Us
 
-To learn more about the Rapid Evidence Synthesis project of the NIHR Applied Research Collaboration Greater Manchester (ARC‑GM), visit [ARC GM \| Rapid Evidence Synthesis](https://arc-gm.nihr.ac.uk/rapid-evidence-synthesis) for contact information.
+To learn more about the Rapid Evidence Synthesis project of the NIHR Applied Research Collaboration Greater Manchester (ARC‑GM), visit [ARC GM \| Rapid Evidence Synthesis](https://arc-gm.nihr.ac.uk/rapid-evidence-synthesis){target="_blank"} for contact information.
 
 ## Contributors
 
