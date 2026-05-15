@@ -43,7 +43,7 @@ To help make informed adoption decisions, decision-makers need to find, bring to
 
 *‘***Evidence synthesis** *refers to the process of bringing together information from a range of sources and disciplines to inform debates and decisions on specific issues. Decision-making and public debate are best served if policymakers have access to the best current evidence on an issue. An accurate, concise and unbiased synthesis of the evidence is therefore one of the most valuable contributions the research community can offer policymakers.’*
 
-From *‘[**Evidence synthesis for policy: a statement of principles**](https://royalsociety.org/-/media/policy/projects/evidence-synthesis/evidence-synthesis-statement-principles.pdf)’ by the Royal Society and the Academy of Medical Sciences*
+From *‘[**Evidence synthesis for policy: a statement of principles**](https://royalsociety.org/-/media/policy/projects/evidence-synthesis/evidence-synthesis-statement-principles.pdf){target="_blank"}’ by the Royal Society and the Academy of Medical Sciences*
 :::
 
 If you would like to learn the basics of evidence synthesis, please watch the introductory video:
@@ -57,13 +57,13 @@ If you would like to learn the basics of evidence synthesis, please watch the in
 
 This is an introduction to evidence synthesis, clinical trials and the application of evidence. It is designed for the public, policy makers and members of healthcare teams.
 
-Click [here](https://www.cochrane.org/learn/courses-and-resources/evidence-essentials) to access the resources. This resource is free to use with a [Cochrane account](https://account.cochrane.org/) (free to sign up). 
+Click [here](https://www.cochrane.org/learn/courses-and-resources/evidence-essentials){target="_blank"} to access the resources. This resource is free to use with a [Cochrane account](https://account.cochrane.org/){target="_blank"} (free to sign up). 
 
 ### NIHR Knowledge Mobilisation resources
 
 NIHR brings together a list of useful resources from Applied Research Collaborations and other NIHR organisations on implementation, knowledge mobilisation and impact. These resources are for people who are new to the field and want to find out more.
 
-Click [here](https://arc-w.nihr.ac.uk/training-and-capacity-building/arc-west-courses/an-nihr-arc-guide-to-resources-about-implementation-knowledge-mobilisation-and-impact/course-page/) to access the resources.
+Click [here](https://arc-w.nihr.ac.uk/training-and-capacity-building/arc-west-courses/an-nihr-arc-guide-to-resources-about-implementation-knowledge-mobilisation-and-impact/course-page/){target="_blank"} to access the resources.
 :::
 
 Systematic reviews and rapid reviews are two commonly used evidence synthesis approaches. They share the main steps outlined below (@nte-1).
@@ -154,7 +154,7 @@ The RES approach can deliver an evidence summary in 2–8 weeks, depending on th
 
 ### *Transparency and robustness*
 
-The principles of the [GRADE Evidence to Decision framework](https://www.bmj.com/content/353/bmj.i2016) are central to the RES approach, which makes the RES transparent, consistent and reproducible.
+The principles of the [GRADE Evidence to Decision framework](https://www.bmj.com/content/353/bmj.i2016){target="_blank"} are central to the RES approach, which makes the RES transparent, consistent and reproducible.
 
 While not exhaustive, the RES ensures that uncertainties are clearly identified and acknowledged.
 
