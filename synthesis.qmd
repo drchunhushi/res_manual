@@ -6,7 +6,7 @@ resources:
 
 # Synthesising, presenting and communicating the evidence
 
-This section describes how to synthesise the evidence for a RES and outlines the accessible ways of presenting information in the RES to maximise the reach of the findings and their implications.
+This section describes how to synthesise the evidence for a RES and outlines accessible ways of presenting the information to maximise the reach of the findings and their implications.
 
 ## Learning objectives
 
