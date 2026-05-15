@@ -27,13 +27,13 @@ This section does not cover the practical know-how, step-by-step methods, or han
 
 For readers who wish to learn systematic literature search methods, the following resources may be helpful:
 
--   [Chapter 4: Searching for and selecting studies](#0), in the *Cochrane Handbook for Systematic Reviews of Interventions*.
+-   [Chapter 4: Searching for and selecting studies](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-04){target="_blank"}, in the *Cochrane Handbook for Systematic Reviews of Interventions*.
 
--   [Cochrane Library User Guide](#0)
+-   [Cochrane Library User Guide](https://www.wiley.com/en-us/solutions-partnerships/customer-success-hub/cochrane-library-training-hub/user-guide/){target="_blank"}
 
--   [PubMed® Online Training](#0)
+-   [PubMed® Online Training](https://learn.nlm.nih.gov/documentation/training-packets/T0042010P/){target="_blank"}
 
--   [Video Tutorials](#0) on searching the commonly used databases
+-   [Video Tutorials](https://hslmcmaster.libguides.com/tutorials){target="_blank"} on searching the commonly used databases
 :::
 
 ## Performing and reporting a search
@@ -42,9 +42,9 @@ RES aims to quickly mobilise relevant evidence to support decision-making about 
 
 ### Constructing a suitable search strategy
 
-Developing a suitable **search strategy** is important before performing a database search. A search strategy is a structured combination of multiple search terms (i.e., keywords, terms, or phrases) that relate to the motivating question. These terms are often combined using [Boolean operators]{#boolean title="In literature searches, Boolean operators are specific words (AND, OR and NOT) used to combine or exclude search terms. They improve the relevance of search results" style="color: magenta"}, [truncations]{#truncation title="Truncation involves using a symbol at the end of a term to find all variations of that term. For example, \"surg*\" retrieves 'surgery' and 'surgical.'" style="color: magenta"} and [wildcards]{#wildcard title="Wildcards replace a single letter in a word to retrieve relevant variations of the same word; for instance, \"p?diatric\" can retrieve both 'pediatric' and 'paediatric’" style="color: magenta"}.
+Developing a suitable **search strategy** is important before performing a database search. A search strategy is a structured combination of multiple search terms (i.e., keywords, terms, or phrases) that relate to the motivating question. These terms are often combined using [Boolean operators]{#boolean title="In literature searches, Boolean operators are specific words (AND, OR and NOT) used to combine or exclude search terms. They improve the relevance of search results" style="color: red"}, [truncations]{#truncation title="Truncation involves using a symbol at the end of a term to find all variations of that term. For example, \"surg*\" retrieves 'surgery' and 'surgical.'" style="color: red"} and [wildcards]{#wildcard title="Wildcards replace a single letter in a word to retrieve relevant variations of the same word; for instance, \"p?diatric\" can retrieve both 'pediatric' and 'paediatric’" style="color: red"}.
 
-The section below outlines key guidance on how to construct a search strategy and presents strategy we used to identify research for the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities.pdf) as an example.
+The section below outlines key guidance on how to construct a search strategy and presents strategy we used to identify research for the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities.pdf){target="_blank"} as an example.
 
 ::: cr-section
 Scroll down to learn key elements to consider when building a search strategy
@@ -61,9 +61,9 @@ Scroll down to learn key elements to consider when building a search strategy
 
     -   Consider the topic(s) of the RES question(s);
     -   Identify the main concepts within the question(s) and list relevant keywords. The main concepts of the example include: **outdoor advertising**, **alcohol**, **gambling**, and **payday loans**. The corresponding keywords are in lines **1 to 2**, lines **24 to 36**, lines **7 to 20**, and lines **38 to 42**, respectively.
-    -   Check whether a concept has associated Medical Subject Headings, [MeSH]{#mesh title="Medical Subject Headings (MeSH). These are standardised terms used by the U.S. National Library of Medicine to index medical articles in databases like Medline. Using MeSH terms facilitates precise searches for specific health topics." style="color: magenta"}, using databases. Subject headings are standardised terms used for precise searching on a specific topic. For example, **exp Alcohol Drinking/** (line 27), **exp Alcoholic Beverages/** (line 28), **exp Beer/** (line 31), and **exp Wine/** (line 33) are all MeSH subject headings related to the main concept of alcohol. The remaining terms used from line 24 to line 36 are often known as free-text terms.
+    -   Check whether a concept has associated Medical Subject Headings, [MeSH]{#mesh title="Medical Subject Headings (MeSH). These are standardised terms used by the U.S. National Library of Medicine to index medical articles in databases like Medline. Using MeSH terms facilitates precise searches for specific health topics." style="color: red"}, using databases. Subject headings are standardised terms used for precise searching on a specific topic. For example, **exp Alcohol Drinking/** (line 27), **exp Alcoholic Beverages/** (line 28), **exp Beer/** (line 31), and **exp Wine/** (line 33) are all MeSH subject headings related to the main concept of alcohol. The remaining terms used from line 24 to line 36 are often known as free-text terms.
     -   Refer to key search terms previously used in the search strategies of published evidence syntheses, usually available within appendices, supplementary materials, and/or in published review protocols. We identified the terms related to the concept 'alcohol' through multiple approaches, including referring to the search terms used in a relevant Cochrane Review [@siegfried2014restricting].
-    -   Use databases, Google, or Artificial Intelligence tools (e.g., [litsearchR](#0)) to find other related keywords.
+    -   Use databases, Google, or Artificial Intelligence tools (e.g., [litsearchR](https://elizagrames.github.io/litsearchr/){target="_blank"}) to find other related keywords.
 
 -   **Use Boolean operators to combine search terms appropriately**
 
@@ -81,24 +81,24 @@ Scroll down to learn key elements to consider when building a search strategy
     This often includes:
 
     1.  Rephrasing search terms where relevant e.g., by using truncation and wildcards. For example, \* used in line 24 is a truncation, and the term alcohol\* can retrieve any records containing the word 'alcohol' and other variants such as 'alcoholic'.
-    2.  Using pre-defined [search filters]{#filter title="In evidence synthesis, a search filter is a pre-defined combination of search terms. Well-established search filters often have been validated by experts and can optimise literature retrieval based on specific criteria. ISSG Search Filters Resource has a collection of established search filters on various topics." style="color: magenta"} where available (see [ISSG Search Filters Resource](#0) for established search filters on various topics).
+    2.  Using pre-defined [search filters]{#filter title="In evidence synthesis, a search filter is a pre-defined combination of search terms. Well-established search filters often have been validated by experts and can optimise literature retrieval based on specific criteria. ISSG Search Filters Resource has a collection of established search filters on various topics." style="color: red"} where available (see [ISSG Search Filters Resource](https://sites.google.com/a/york.ac.uk/issg-search-filters-resource/home){target="_blank"} for established search filters on various topics).
 :::
 
 ### Consideration of appropriate resources of evidence
 
-As a RES prioritises searching for pre-appraised evidence in the first instance, an efficient approach is to search for systematic reviews and/or other types of reviews in key databases such as Medline (or PubMed) and the Cochrane Library. The [Cochrane Library](https://www.cochranelibrary.com/) includes both the Cochrane Database of Systematic Reviews and the Cochrane Central Register of Controlled Trials (CENTRAL).
+As a RES prioritises searching for pre-appraised evidence in the first instance, an efficient approach is to search for systematic reviews and/or other types of reviews in key databases such as Medline (or PubMed) and the Cochrane Library. The [Cochrane Library](https://www.cochranelibrary.com/){target="_blank"} includes both the Cochrane Database of Systematic Reviews and the Cochrane Central Register of Controlled Trials (CENTRAL).
 
 When database searching yields insufficient evidence for a RES, you may undertake additional searches using the following resources:
 
--   [Epistemonikos](#0), a database of systematic reviews in health and care fields.
+-   [Epistemonikos](https://www.epistemonikos.org/){target="_blank"}, a database of systematic reviews in health and care fields.
 
--   Resources other than databases, including evidence submitted by decision-makers or the manufacturers of an innovation. [NICE guidance](#0) can also be a valuable source of information and should be searched where applicable.
+-   Resources other than databases, including evidence submitted by decision-makers or the manufacturers of an innovation. [NICE guidance](https://www.nice.org.uk/guidance/published?sp=on){target="_blank"} can also be a valuable source of information and should be searched where applicable.
 
 -   Reference checking or forward citation searching of relevant evidence syntheses and primary studies.
 
 When pre-appraised evidence is not available, limited or outdated, and primary studies need to be considered for inclusion in a RES, then further searches can be performed in databases such as Medline, Embase and others as appropriate.
 
-In reporting literature searches, RES reports do not usually present full search strategies and methods (for example, Boolean and proximity operators, subject headings, text words, or limits and filters). Instead, it is often sufficient to provide a **brief description of essential search details**, typically including the **databases and additional resources searched**, the **key concepts**, and the **search dates**, whilst full search strategies are kept available on request. @fig-3 presents an example of the **Search** section from the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities.pdf).
+In reporting literature searches, RES reports do not usually present full search strategies and methods (for example, Boolean and proximity operators, subject headings, text words, or limits and filters). Instead, it is often sufficient to provide a **brief description of essential search details**, typically including the **databases and additional resources searched**, the **key concepts**, and the **search dates**, whilst full search strategies are kept available on request. @fig-3 presents an example of the **Search** section from the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities.pdf){target="_blank"}.
 
 ![Example of literature searches for the RES “Restricting advertising in public spaces”](images/Picture3.png){#fig-3}
 
@@ -110,7 +110,7 @@ In cases where the initial searches yield little or no evidence, or even outdate
 
 ## Study selection
 
-For a RES, study selection is often performed by a single reviewer for speed, although consultation with a second reviewer is often undertaken. We often use the online tool [Rayyan](https://www.rayyan.ai/) to facilitate the study selection process.
+For a RES, study selection is often performed by a single reviewer for speed, although consultation with a second reviewer is often undertaken. We often use the online tool [Rayyan](https://www.rayyan.ai/){target="_blank"} to facilitate the study selection process.
 
 
 ## Section summary
