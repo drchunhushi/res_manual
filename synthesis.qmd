@@ -20,7 +20,7 @@ By the end of this section, you should:
 
 ## Synthesising the evidence
 
-A narrative synthesis approach is normally used to report the evidence, mapped to each RES question. Narrative synthesis involves writing a descriptive summary and interpreting findings across studies. It is a common method when other forms of synthesis (e.g., statistical synthesis) are not possible. For a RES, [meta-analysis]{.d-inline-block tabindex="0" data-bs-toggle="tooltip" title="Meta-analysis is a way of combining the results of several similar studies to get a more strong answer than any single study can provide" style="color: magenta"} is rarely performed or needed, as what is needed is a reliable, brief summary and presentation of the existing evidence, including meta-analyses already reported in previous systematic reviews.
+A narrative synthesis approach is normally used to report the evidence, mapped to each RES question. Narrative synthesis involves writing a descriptive summary and interpreting findings across studies. It is a common method when other forms of synthesis (e.g., statistical synthesis) are not possible. For a RES, [meta-analysis]{.d-inline-block tabindex="0" data-bs-toggle="tooltip" title="Meta-analysis is a way of combining the results of several similar studies to get a more strong answer than any single study can provide" style="color: red"} is rarely performed or needed, as what is needed is a reliable, brief summary and presentation of the existing evidence, including meta-analyses already reported in previous systematic reviews.
 
 Quantitative and qualitative data are synthesised differently. For narrative syntheses of quantitative data, the summaries of the evidence typically include the following information:
 
@@ -33,7 +33,7 @@ Quantitative and qualitative data are synthesised differently. For narrative syn
 The following example shows how the above information is drawn together for a synthesis of quantitative data.
 
 ::: cr-section
-The [ARC-GM RES on Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf) included four reviews that present evidence on the impacts of banning alcohol advertising on alcohol consumption-related outcomes. The right figure shows only data extracted from the included Cochrane Review.
+The [ARC-GM RES on Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf){target="_blank"} included four reviews that present evidence on the impacts of banning alcohol advertising on alcohol consumption-related outcomes. The right figure shows only data extracted from the included Cochrane Review.
 
 ![](images/Picture4.png){#cr-data width="1012"}
 
@@ -54,7 +54,7 @@ Narrative methods were used to summarise the data extracted, capturing the follo
     In this example, the meaning and direction of the effect sizes were largely interpreted based on the GRADE assessment results. The very low certainty evidence means it is uncertain whether restricting or banning alcohol advertising reduces alcohol consumption in adults and adolescents.
 :::
 
-These summaries of findings can also highlight the methodological limitations of the evidence being presented, as identified in the risk of bias assessment, and also present the level of certainty resulting from the [GRADE]{#grade title="The GRADE framework, which stands for Grading of Recommendations, Assessment, Development, and Evaluations, is globally adopted framework for evaluating the certainty of the conclusions drawn from a body of research evidence. It is widely used by both guideline developers and systematic reviewers" style="color: magenta"} assessments. Incorporating the assessment of the certainty of evidence can help gauge how likely it is that the presented results are close to the truth.
+These summaries of findings can also highlight the methodological limitations of the evidence being presented, as identified in the risk of bias assessment, and also present the level of certainty resulting from the [GRADE]{#grade title="The GRADE framework, which stands for Grading of Recommendations, Assessment, Development, and Evaluations, is globally adopted framework for evaluating the certainty of the conclusions drawn from a body of research evidence. It is widely used by both guideline developers and systematic reviewers" style="color: red"} assessments. Incorporating the assessment of the certainty of evidence can help gauge how likely it is that the presented results are close to the truth.
 
 The above example, along with its related GRADE assessment results and the judgement on the relevance of the evidence to the regional context, results in the summary in @fig-5.
 
@@ -66,14 +66,14 @@ It is useful if a brief summary of the evidence, like the abstract of a systemat
 
 
 ::: {.callout-important}
-## Example of the evidence summary from the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf)
+## Example of the evidence summary from the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf){target="_blank"}
 
 There is some **limited** research evidence regarding the implications of policies that restrict the use of outdoor spaces for advertising alcohol and gambling. We found no research evidence regarding policies to restrict advertising for payday loans.
 
 **Limited** evidence suggests that implementing restrictions on alcohol marketing in outdoor places may reduce the awareness of alcohol advertising in adults, whilst it is **uncertain** if restricting or banning alcohol advertising could reduce alcohol consumption in adults and adolescents. There is **consistent evidence** on the causal relationship between exposure to advertising of gambling commodities and positive attitudes towards gambling, intentions to gamble and increased gambling activity.
 :::
 
-The Cochrane Collaboration website provides a very useful [guidance](https://training.cochrane.org/system/files/uploads/protected_file/GUIDAN~1.PDF#page=8) on writing a plain language summary plus a [template](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.cochrane.org%2Fauthors%2Fhandbooks-and-manuals%2Fhandbook%2Fcurrent%2Ftemplate-writing-cochrane-plain-language-summary.docx&wdOrigin=BROWSELINK).
+The Cochrane Collaboration website provides a very useful [guidance](https://training.cochrane.org/system/files/uploads/protected_file/GUIDAN~1.PDF#page=8){target="_blank"} on writing a plain language summary plus a [template](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.cochrane.org%2Fauthors%2Fhandbooks-and-manuals%2Fhandbook%2Fcurrent%2Ftemplate-writing-cochrane-plain-language-summary.docx&wdOrigin=BROWSELINK){target="_blank"}.
 
 ## Producing accessible RES reports for knowledge mobilisation
 
@@ -87,7 +87,7 @@ The target audience for a RES is normally policy- or decision-makers who are oft
 -   Using visual elements to complement text, such as tables and figures;
     -   Using an easy-to-follow layout with subheadings, bullet points, and a consistent style.
 
-**Concise reporting**: We recommend keeping the summary of the main findings of a RES within 1 to 2 pages to efficiently communicate the questions and answers upfront. This summary is followed by the full report, which can be 10 to 20 pages in length as needed. See the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf) as an example.
+**Concise reporting**: We recommend keeping the summary of the main findings of a RES within 1 to 2 pages to efficiently communicate the questions and answers upfront. This summary is followed by the full report, which can be 10 to 20 pages in length as needed. See the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf){target="_blank"} as an example.
 
 **Objective tone**: A RES presents evidence that helps decision-makers make informed choices about adopting and implementing innovations. The report should be written in an objective tone, focusing solely on the evidence itself. In ARC-GM, our practice is to avoid making recommendations about whether to adopt or reject an innovation or intervention because we acknowledge that research evidence is only one aspect of the decision-making.
 
@@ -105,8 +105,8 @@ A RES report often begins with a 1–2 page summary, followed by the full report
 
 ☐ Present the summary of evidence alongside the certainty of the evidence
 
-☐ Write up a RES report, referring to [examples](https://arc-gm.nihr.ac.uk/rapid-evidence-synthesis) of RES reports
+☐ Write up a RES report, referring to [examples](https://arc-gm.nihr.ac.uk/rapid-evidence-synthesis){target="_blank"} of RES reports
 
-☐ Write a Summary section in a RES report, referring to the Cochrane plain language summary [template](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.cochrane.org%2Fauthors%2Fhandbooks-and-manuals%2Fhandbook%2Fcurrent%2Ftemplate-writing-cochrane-plain-language-summary.docx&wdOrigin=BROWSELINK) and [guidance](https://training.cochrane.org/system/files/uploads/protected_file/GUIDAN~1.PDF#page=8)
+☐ Write a Summary section in a RES report, referring to the Cochrane plain language summary [template](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.cochrane.org%2Fauthors%2Fhandbooks-and-manuals%2Fhandbook%2Fcurrent%2Ftemplate-writing-cochrane-plain-language-summary.docx&wdOrigin=BROWSELINK){target="_blank"} and [guidance](https://training.cochrane.org/system/files/uploads/protected_file/GUIDAN~1.PDF#page=8){target="_blank"}
 
 ☐ Check the readability of the RES report
