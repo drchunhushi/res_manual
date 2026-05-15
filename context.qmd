@@ -72,7 +72,7 @@ After reading each section, you may find it helpful to complete the tasks listed
 
 Throughout this guide, we include some Word- or Excel-based forms that you can use or adapt for use in your RES activities. These forms are downloadable.
 
-We also use this [colour]{#colour title="Coloured texts like this has a definition" style="color: teal"} to highlight jargon or key terms for which we provide brief definitions or explanations. To view these, hover over the colour-highlighted text. This feature is not available on mobile phones or tablets.
+We also use this [colour]{#colour title="Coloured texts like this has a definition" style="color: blue"} to highlight jargon or key terms for which we provide brief definitions or explanations. To view these, hover over the colour-highlighted text. This feature is not available on mobile phones or tablets.
 
 ## Potential Users of this Guide
 
