@@ -13,7 +13,7 @@ Finding research evidence that meets the eligibility criteria is a critical part
 
 By the end of this section, you should:
 
--   Understand how to develop a search strategy and how to search literature
+-   Understand how to develop and implement a search strategy
 
 -   Understand the streamlined approach to study selection
 
@@ -38,13 +38,13 @@ For readers who wish to learn systematic literature search methods, the followin
 
 ## Performing and reporting a search
 
-RES aims to quickly mobilise relevant evidence to support decision-makers on specific health and care innovations. Accordingly, RES searches can be pragmatically flexible and iterative, often prioritising targeted identification of the most relevant, recent and highest-quality evidence, rather than attempting exhaustive retrieval of all potentially related literature.
+RES aims to quickly mobilise relevant evidence to support decision-making about adoption of specific health and care innovations or policies. Accordingly, RES searches can be pragmatically flexible and iterative, often prioritising targeted identification of the most relevant, recent and highest-quality evidence, rather than attempting exhaustive retrieval of all potentially related literature.
 
 ### Constructing a suitable search strategy
 
-Developing a suitable **search strategy** is important before performing a database search. A search strategy is a structured combination of multiple search terms (i.e., keywords, terms, or phrases) that relate to a review question. These terms are often combined using [Boolean operators]{#boolean title="In literature searches, Boolean operators are specific words (AND, OR and NOT) used to combine or exclude search terms. They improve the relevance of search results" style="color: magenta"}, [truncations]{#truncation title="Truncation involves using a symbol at the end of a term to find all variations of that term. For example, \"surg*\" retrieves 'surgery' and 'surgical.'" style="color: magenta"} and [wildcards]{#wildcard title="Wildcards replace a single letter in a word to retrieve relevant variations of the same word; for instance, \"p?diatric\" can retrieve both 'pediatric' and 'paediatric’" style="color: magenta"}.
+Developing a suitable **search strategy** is important before performing a database search. A search strategy is a structured combination of multiple search terms (i.e., keywords, terms, or phrases) that relate to the motivating question. These terms are often combined using [Boolean operators]{#boolean title="In literature searches, Boolean operators are specific words (AND, OR and NOT) used to combine or exclude search terms. They improve the relevance of search results" style="color: magenta"}, [truncations]{#truncation title="Truncation involves using a symbol at the end of a term to find all variations of that term. For example, \"surg*\" retrieves 'surgery' and 'surgical.'" style="color: magenta"} and [wildcards]{#wildcard title="Wildcards replace a single letter in a word to retrieve relevant variations of the same word; for instance, \"p?diatric\" can retrieve both 'pediatric' and 'paediatric’" style="color: magenta"}.
 
-The section below outlines key guidance on how to construct a search strategy and present the example strategy we used to identify research for the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities.pdf).
+The section below outlines key guidance on how to construct a search strategy and presents strategy we used to identify research for the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM%20RES%20outdoor%20advertising%20harmful%20commodities.pdf) as an example.
 
 ::: cr-section
 Scroll down to learn key elements to consider when building a search strategy
@@ -55,14 +55,14 @@ Scroll down to learn key elements to consider when building a search strategy
 
 -   **Identify keywords**
 
-    The first and vital step is to identify keywords that can be combined in a search strategy.
+    The first, vital step is to identify keywords that can be combined in a search strategy.
 
-    In identifying keywords, you can:
+    In identifying keywords, you should:
 
     -   Consider the topic(s) of the RES question(s);
-    -   Identify the main concepts within the question(s) and list relevant keywords. The main concepts of the example include: **outdoor advertising**, **alcohol**, **gambling**, and **payday loan**. The corresponding keywords are in lines **1 to 2**, lines **24 to 36**, lines **7 to 20**, and lines **38 to 42**, respectively.
-    -   Check whether a concept has [MeSH]{#mesh title="Medical Subject Headings (MeSH). These are standardised terms used by the U.S. National Library of Medicine to index medical articles in databases like Medline. Using MeSH terms facilitates precise searches for specific health topics." style="color: magenta"} subject headings using databases. Subject headings are standardised terms used for precisely searching literature on a specific topic. For example, **exp Alcohol Drinking/** (line 27), **exp Alcoholic Beverages/** (line 28), **exp Beer/** (line 31), and **exp Wine/** (line 33) are all MeSH subject headings related to the main concept of alcohol. The remaining terms used from line 24 to line 36 are often known as free-text terms.
-    -   Refer to key search terms used in the search strategies of published evidence syntheses, usually available within appendices, supplementary materials, and/or in published review protocols. We identified the terms related to the concept 'alcohol' through multiple approaches, including referring to the search terms used in a relevant Cochrane Review [@siegfried2014restricting].
+    -   Identify the main concepts within the question(s) and list relevant keywords. The main concepts of the example include: **outdoor advertising**, **alcohol**, **gambling**, and **payday loans**. The corresponding keywords are in lines **1 to 2**, lines **24 to 36**, lines **7 to 20**, and lines **38 to 42**, respectively.
+    -   Check whether a concept has associated Medical Subject Headings, [MeSH]{#mesh title="Medical Subject Headings (MeSH). These are standardised terms used by the U.S. National Library of Medicine to index medical articles in databases like Medline. Using MeSH terms facilitates precise searches for specific health topics." style="color: magenta"}, using databases. Subject headings are standardised terms used for precise searching on a specific topic. For example, **exp Alcohol Drinking/** (line 27), **exp Alcoholic Beverages/** (line 28), **exp Beer/** (line 31), and **exp Wine/** (line 33) are all MeSH subject headings related to the main concept of alcohol. The remaining terms used from line 24 to line 36 are often known as free-text terms.
+    -   Refer to key search terms previously used in the search strategies of published evidence syntheses, usually available within appendices, supplementary materials, and/or in published review protocols. We identified the terms related to the concept 'alcohol' through multiple approaches, including referring to the search terms used in a relevant Cochrane Review [@siegfried2014restricting].
     -   Use databases, Google, or Artificial Intelligence tools (e.g., [litsearchR](#0)) to find other related keywords.
 
 -   **Use Boolean operators to combine search terms appropriately**
@@ -70,7 +70,7 @@ Scroll down to learn key elements to consider when building a search strategy
     Boolean operators are words (i.e., OR, AND, and NOT) used in search engines and databases to refine and combine search terms. They help to improve search accuracy by controlling how search terms are ‘connected’ with each other in a search.
 
     1.  OR: This word is used to combine search terms, usually for the same concept, and increases the yield of the search by identifying papers where the terms appear separately or together.
-    2.  AND: This word is used to combine different concepts and reduces the yield of the search by only picking papers where the ’AND’ terms all appear (ignoring papers where only one appears).
+    2.  AND: This word is used to combine different concepts and reduces the yield of the search by only picking papers where the ’AND’ terms all appear (ignoring papers where only one term appears).
 
     Lines 24 to 36 in Figure 2 were combined using the Boolean operator ‘OR’ in line 37 as they are all related to the concept of 'alcohol'.
 
@@ -86,7 +86,7 @@ Scroll down to learn key elements to consider when building a search strategy
 
 ### Consideration of appropriate resources of evidence
 
-As a RES often prioritises pre-appraised evidence in the first instance, an efficient approach is to search for systematic reviews and/or other types of reviews in key databases such as Medline (or PubMed) and the Cochrane Library. The [Cochrane Library](https://www.cochranelibrary.com/) includes both the Cochrane Database of Systematic Reviews and the Cochrane Central Register of Controlled Trials (CENTRAL).
+As a RES prioritises searching for pre-appraised evidence in the first instance, an efficient approach is to search for systematic reviews and/or other types of reviews in key databases such as Medline (or PubMed) and the Cochrane Library. The [Cochrane Library](https://www.cochranelibrary.com/) includes both the Cochrane Database of Systematic Reviews and the Cochrane Central Register of Controlled Trials (CENTRAL).
 
 When database searching yields insufficient evidence for a RES, you may undertake additional searches using the following resources:
 
@@ -104,13 +104,13 @@ In reporting literature searches, RES reports do not usually present full search
 
 ### Refining the search
 
-As RES searches are allowed to be pragmatically iterative, initial searching can be tightly limited to the evidence directly relevant to the RES questions, i.e., research focusing on the specific health and care innovations and populations that the decision-makers are interested in. When the focused search returns a substantial amount of evidence to address a RES enquiry, wider searches for further evidence may not be needed. If the volume of evidence is unmanageable, or if relevance varies, you may further **refine eligibility criteria** and **limit searches** based on the quality, comprehensiveness, and timeliness of the available evidence.
+As RES searches can be pragmatically iterative, initial searching can be tightly limited to the evidence directly relevant to the RES questions, i.e., research focusing on the specific health and care innovations and populations that the decision-makers are interested in. When the focused search returns a substantial amount of evidence to address a RES enquiry, wider searches for further evidence may not be needed. If the volume of evidence is unmanageable, or if relevance varies, you may further **refine eligibility criteria** and **limit searches** based on the quality, comprehensiveness, and timeliness of the available evidence.
 
 In cases where the initial searches yield little or no evidence, or even outdated evidence, and you opt to apply wider eligibility criteria as noted in Section 2, further searches can be performed and look for broader, more ***indirect evidence*** that does not perfectly match the specific population, innovation, context, or outcome of interest, but may still provide useful insights.
 
 ## Study selection
 
-For a RES, study selection is often performed by a single reviewer to speed up its process, although consultation with a second reviewer is often undertaken. We often use the online tool [Rayyan](https://www.rayyan.ai/) to facilitate the study selection process.
+For a RES, study selection is often performed by a single reviewer for speed, although consultation with a second reviewer is often undertaken. We often use the online tool [Rayyan](https://www.rayyan.ai/) to facilitate the study selection process.
 
 
 ## Section summary
@@ -121,7 +121,7 @@ You can take a flexible approach to searching for evidence for a RES, beginning 
 
 ## Tasks to complete
 
-☐ Search electronic databases and, where applicable, other resources, referring to the [Development and execution of searches](forms/Development%20and%20execution%20of%20searches.docx) document
+☐ Search electronic databases and, where applicable, other resources, using the resources in the [Development and execution of searches](forms/Development%20and%20execution%20of%20searches.docx) document
 
 ·       Choose databases and other resources that you consider appropriate for searches
 
@@ -133,4 +133,4 @@ You can take a flexible approach to searching for evidence for a RES, beginning 
 
 ☐ Screen studies for inclusion against the pre-specified eligibility criteria
 
-☐ Document literature search and selection
+☐ Document the literature search and selection process and the results
