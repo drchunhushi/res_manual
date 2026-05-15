@@ -77,27 +77,27 @@ The Cochrane Collaboration website provides a very useful [guidance](https://tra
 
 ## Producing accessible RES reports for knowledge mobilisation
 
-The target audience for a RES is normally policy- or decision-makers who are frequently not research or evidence synthesis experts. The readability of a RES is important, and below outlines some factors that can help you make a RES accessible and user-friendly.
+The target audience for a RES is normally policy- or decision-makers who are often not research or evidence synthesis experts. The readability of a RES is important and we outline below factors that can help you make a RES accessible and user-friendly.
 
 **Clear summaries with user-friendly language and formatting:** When presenting the summary of the evidence, try to consider the language and formatting issues:
 
 -   Using simple language, free of jargon and technical language wherever possible
-    -   Where using technical terms cannot be avoided, provide explanations in simple language.
+    -   Where technical terms cannot be avoided, provide explanations (e.g., a glossary) in simple language.
 -   Using easy-to-understand statistical information
 -   Using visual elements to complement text, such as tables and figures;
     -   Using an easy-to-follow layout with subheadings, bullet points, and a consistent style.
 
-**Concise reporting**: A recommended practice is to keep the summary of the main findings a RES within 1 to 2 pages, in order to efficiently communicate the questions and answers upfront. This summary is followed by the full report, which can be 10 to 20 pages in length as needed. See the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf) as an example.
+**Concise reporting**: We recommend keeping the summary of the main findings of a RES within 1 to 2 pages to efficiently communicate the questions and answers upfront. This summary is followed by the full report, which can be 10 to 20 pages in length as needed. See the [ARC-GM RES Restricting advertising in public spaces](files/ARC-GM RES outdoor advertising harmful commodities.pdf) as an example.
 
-**Objective tone**: A RES presents evidence that helps decision-makers make informed choices about adopting and implementing innovations. The report should be written in an objective tone, focusing solely on the evidence itself. Our practice within the ARC-GM RES team is to refrain from making recommendations about whether to adopt or reject an innovation or intervention because we acknowledge that research evidence is only one of several inputs that inform decision-making.
+**Objective tone**: A RES presents evidence that helps decision-makers make informed choices about adopting and implementing innovations. The report should be written in an objective tone, focusing solely on the evidence itself. In ARC-GM, our practice is to avoid making recommendations about whether to adopt or reject an innovation or intervention because we acknowledge that research evidence is only one aspect of the decision-making.
 
 ## Section summary
 
-A RES often uses a narrative approach to synthesise evidence, highlighting the type and quantity of evidence, the size of effect or association, and their clinical or health significance.
+A RES often uses a narrative approach to synthesise the evidence, highlighting the type and quantity of evidence, the size of effect or association, and its clinical or health significance.
 
-The research evidence is summarised across all included studies, and the certainty of evidence needs to be incorporated into the interpretation of RES findings, following a streamlined GRADE approach.
+The research evidence is summarised across all included studies, and the certainty of evidence is incorporated into the interpretation of RES findings, following a streamlined GRADE approach.
 
-A RES report often begins with a 1–2 page summary, followed by a full report of 10–20 pages. RES findings need to be reported using clear, plain language, and the RES report should be concise to maximise the reach of the findings.
+A RES report often begins with a 1–2 page summary, followed by the full report of 10–20 pages. RES findings need to be reported using clear, plain language, and the RES report should be concise to maximise the reach of the findings.
 
 ## Tasks to complete
 
