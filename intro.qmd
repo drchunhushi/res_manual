@@ -1,5 +1,6 @@
 ---
 format: closeread-html
+resources:
   - files/Decision pathway.docx
   - files/ARC-GM RES Financial and debt advice in primary care.pdf
   - files/ARC-GM RES Multiple long term conditions.pdf
